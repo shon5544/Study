@@ -72,10 +72,28 @@ callsInPlace는 람다 함수를 사용할 때, 그 함수의 호출 횟수를 �
 ### callsInPlace는 왜 쓰나요?
 ---
 ```kotlin
+// callsInPlace가 없을 때.
 val value: String
 Contract.invokeLambda {
 	value = "TEMP" // Captured values initialization is forbidden due to possible reassignment
 }
-return value // Variable 'value' must be initializ
+return value // Variable 'value' must be initialized
 ```
 val로 선언한 값이 초기화 되어있지 않은 상황이다.
+
+- Captured ~ : invokeLambda 함수가 **몇 번 호출되는지 명확히 모르기 때문에, val 변수 특성 상 여러 번 값이 변할 수 있어 오류 발생**
+
+- Variable ~ : 마찬가지로, invokeLambda 함수가 **몇 번 호출되는지 명확히 모르기 때문에, return 값이 다를 수 있어 오류 발생**
+
+만약 위의 코드를 실행 시켰다면 위와 같은 오류가 발생할 것이다.
+왜냐하면 인자로 들어갈 람다가 몇 번 호출될 지 모르기 때문이다.
+
+val 변수의 특성 상 인자로 들어가는 람다는 단 한 번만 작동해야 한다. 왜냐하면 val의 초기화는 단 한번만 이뤄지니까.
+
+그런데 invokeLambda 안에서 람다를 몇 번 호출하는지 명시되어 있지 않기 때문에 오류가 발생하는 것이다.
+
+### 이상하네
+---
+> 😠: '아니,, 한 번만 작동하게 썼잖아,,' 
+
+개발자 입장에선 이상할 수 밖에 없다. 당연히 ㅇ
