@@ -2,10 +2,14 @@
 tags:
   - 문법
 ---
-
 ### 목차
 
-
+- [Contract 란?](#Contract%20%EB%9E%80?)
+- [How to use?](#How%20to%20use?)
+- [아니,, 그럼 뭔 소용이야?](#%EC%95%84%EB%8B%88,,%20%EA%B7%B8%EB%9F%BC%20%EB%AD%94%20%EC%86%8C%EC%9A%A9%EC%9D%B4%EC%95%BC?)
+- [callsInPlace를 활용해보자.](#callsInPlace%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%B4%EB%B3%B4%EC%9E%90.)
+- [callsInPlace는 왜 쓰나요?](#callsInPlace%EB%8A%94%20%EC%99%9C%20%EC%93%B0%EB%82%98%EC%9A%94?)
+- [이상하네](#%EC%9D%B4%EC%83%81%ED%95%98%EB%84%A4)
 
 ### Contract 란?
 ---
