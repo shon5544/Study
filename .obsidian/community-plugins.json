@@ -2,5 +2,6 @@
   "obsidian-outliner",
   "obsidian-excalidraw-plugin",
   "obsidian-git",
-  "emoji-shortcodes"
+  "emoji-shortcodes",
+  "obsidian-plugin-toc"
 ]
