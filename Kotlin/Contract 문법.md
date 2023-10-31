@@ -65,7 +65,7 @@ fun invokeLambda(lambda: () -> Unit) {
 	lambda()
 }
 ```
-위의 코드처럼, implies 대신 callsInPlace를 사용하기도 한다.
+위의 코드처럼, callsInPlace를 사용할 목적으로도 쓴다.
 
 callsInPlace는 람다 함수를 사용할 때, 그 함수의 호출 횟수를 명시적으로 컴파일러에게 이해시켜주기 위해 사용하는 문법이다.
 
