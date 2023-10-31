@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin/Contract.md",
+                "file": "Kotlin/Contract 문법.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "90e098799d662c50",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kotlin/Contract.md",
+                "file": "Kotlin/Contract 문법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kotlin/Contract.md",
+                "file": "Kotlin/Contract 문법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kotlin/Contract.md"
+                "file": "Kotlin/Contract 문법.md"
               }
             }
           }
@@ -143,12 +144,13 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "46c4272707de2304",
   "lastOpenFiles": [
-    "Kotlin/Contract.md",
+    "Kotlin/Contract 문법.md",
     "Excalidraw",
     "Spring",
     "Kotlin"
