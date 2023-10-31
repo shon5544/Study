@@ -52,4 +52,30 @@ fun isNotNull(value: Int?): Int {
 	return result
 }
 ```
-이렇게 활용이 가능하다. 원래 Int?와 Int는 다른 자료형이다. 그러나 위에서 contract에서 value가 null이 아님을 알았으니 Int에 Int?의 대입이 가능한 것이다. 즉, 컴파일러에게 잘못되지 않았음을 알려줬으니 실제로는 잘못된 문법이었
+이렇게 활용이 가능하다. 원래 Int?와 Int는 다른 자료형이다. 그러나 위에서 contract에서 value가 null이 아님을 알았으니 Int에 Int?의 대입이 가능한 것이다. 즉, 컴파일러에게 잘못되지 않았음을 알려줬으니 실제로는 잘못된 문법이었더라도 바로 가능한 것이다.
+
+### callsInPlace를 활용해보자.
+---
+```kotlin
+@ExperimentalContracts
+fun invokeLambda(lambda: () -> Unit) {
+	contract {
+		callsInPlace(lambda, InvocationKind.EXACTLY_ONCE)
+	}
+	lambda()
+}
+```
+위의 코드처럼, implies 대신 callsInPlace를 사용하기도 한다.
+
+callsInPlace는 람다 함수를 사용할 때, 그 함수의 호출 횟수를 명시적으로 컴파일러에게 이해시켜주기 위해 사용하는 문법이다.
+
+### callsInPlace는 왜 쓰나요?
+---
+```kotlin
+val value: String
+Contract.invokeLambda {
+	value = "TEMP" // Captured values initialization is forbidden due to possible reassignment
+}
+return value // Variable 'value' must be initializ
+```
+val로 선언한 값이 초기화 되어있지 않은 상황이다.
