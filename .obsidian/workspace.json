@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "8295fc0dd76b533d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d921a30fc5a22ac2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03f670e494048925",
+            "type": "leaf",
+            "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "Excalidraw"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dc01bd6d5a36bdb8",
+    "type": "split",
+    "children": [
+      {
+        "id": "a58dd5d54b0c3ef7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b4f4809249723ca8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5a51fdef9b452ade",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3c825e7cad1a2c89",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "abf2a948d27a84e9",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f603f03fdfd92c43",
+    "type": "split",
+    "children": [
+      {
+        "id": "92cb386332e0286b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "05aa5c1d32fb774e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8b99a199067525ac",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "06a912348dae60de",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c10979b597d69c92",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "03f670e494048925",
+  "lastOpenFiles": [
+    "Kotlin QueryDSL.md",
+    "kotlin/Kotlin QueryDSL.md",
+    "kotlin",
+    "Excalidraw/Drawing 2023-11-18 18.03.03.excalidraw.md",
+    "Excalidraw",
+    "Spaces/Home",
+    "Spaces"
+  ]
+}
