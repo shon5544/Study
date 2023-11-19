@@ -86,7 +86,7 @@ class UserRepositoryImpl(
 
 jpaQueryFactory를 주입받아 사용한다. method chaining을 통해 원하는 동적 쿼리를 만드는 식이다.
 
-## 각 Method들의 신경쓸 점
+## 각 Method들에서 신경쓸 점
 ---
 굉장히 직관적인 편이라 그냥 보고 감으로 쓰면 얼추 다 맞는다.
 여기서는 다 기재하지 않고 딱 알아야하는 것들만 기재한다.
