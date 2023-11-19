@@ -57,19 +57,49 @@ class QueryDslConfig(
 ## 사용
 ---
 ```kotlin
+import com.yourssu.assignmentblog.domain.user.domain.QUser.user as qUser
+
 @Repository  
 class UserRepositoryImpl(  
     private val userJpaRepository: UserJpaRepository,  
     private val jpaQueryFactory: JPAQueryFactory  
 ): UserRepository {
 	...
-	override fun findUsers(userDto: GetUsersRequestDto): List<User>? {  
-	    val username = userDto.username  
-	    val email = userDto.email  
-	    val createdAtStart = userDto.createdAtStart  
-	    val createdAtEnd = userDto.createdAtEnd  
+
+	private fun selectUsersByArgs(username: String?, email: String?, createdAtStart: LocalDate?, createdAtEnd: LocalDate?): List<User>? {  
+	    val startDateTime: LocalDateTime? = createdAtStart?.atStartOfDay()  
+	    val endDateTime: LocalDateTime? = createdAtEnd?.atTime(LocalTime.MAX)  
 	  
-	    return selectUsersByArgs(username, email, createdAtStart, createdAtEnd)  
+	    return jpaQueryFactory.selectFrom(qUser)  
+	        .where(  
+	            eqUsername(username),  
+	            eqEmail(email),  
+	            greaterEqDate(startDateTime),  
+	            lessEqDate(endDateTime),  
+	            qUser.role.eq(Role.USER)  
+	        )        
+	        .orderBy(qUser.id.desc())  
+	        .fetch()  
 	}
 }
 ```
+
+jpaQueryFactory를 주입받아 사용한다. method chaining을 통해 원하는 동적 쿼리를 만드는 식이다.
+
+## 각 Method들의 신경쓸 점
+---
+굉장히 직관적인 편이라 그냥 보고 감으로 쓰면 얼추 다 맞는다.
+여기서는 다 기재하지 않고 딱 알아야하는 것들만 기재한다.
+
+- `selectFrom()`: QClass 들의 내부 엔티티를 인자로 받는다. 이걸 통해서 어떤 테이블을 참조할지 결정한다.
+
+- `where()`: 평소에 알던 그 `where`와 똑같다. 응용해먹을 수 있는 점을 소개하겠다. 
+	- 콤마(`comma`)로 `and` 연산을 표현할 수 있다. 
+	- 각 조건부로 들어온 부분이 `null`이면 그냥 그 조건은 검사 안 한다.
+		- 위 코드에서 `eqUsername` 함수는 `qUser.username.eq(유저 이름)`으로 진행되는데, 만약 유저 이름이 `null`이면 `null`을 `return` 하도록 되어있다. 그 경우 `where` 메서드는 유저 이름 조건은 쿼리에서 그냥 제외시켜버리고 간다.
+		- 동적인 쿼리를 정말 쉽게 짤 수 있는 것이다.
+
+- `fetch~()`: 마지막은 항상 fetch 혹은 fetchOne, fetchFirst 중 하나를 써야한다.
+	- fetch(): List<엔티티>로 반환한다.
+	- fetchOne(): 엔티티로 반환해준다. 값을 하나만 가져올 때 쓴다.
+	- fetchFirst(): 엔티티로 반환해준다. 리스트로 나와야할 결과 값에서 가장 앞의 값을 반환한다.
