@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "5d4721d6ffda7492",
+    "id": "8295fc0dd76b533d",
     "type": "split",
     "children": [
       {
-        "id": "69f0c53932786737",
+        "id": "d921a30fc5a22ac2",
         "type": "tabs",
         "children": [
           {
-            "id": "46c4272707de2304",
+            "id": "03f670e494048925",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kotlin/Contract 문법.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c0e90391010d0e98",
+    "id": "dc01bd6d5a36bdb8",
     "type": "split",
     "children": [
       {
-        "id": "4d8681857b3f99bd",
+        "id": "a58dd5d54b0c3ef7",
         "type": "tabs",
         "children": [
           {
-            "id": "bd1c64b00f7cef47",
+            "id": "b4f4809249723ca8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "cc04063c83994488",
+            "id": "5a51fdef9b452ade",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,35 +54,42 @@
             }
           },
           {
-            "id": "6da6241074f569b2",
+            "id": "3c825e7cad1a2c89",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "abf2a948d27a84e9",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "90e098799d662c50",
+    "id": "f603f03fdfd92c43",
     "type": "split",
     "children": [
       {
-        "id": "4eb286d0b44f2f40",
+        "id": "92cb386332e0286b",
         "type": "tabs",
         "children": [
           {
-            "id": "8bcd224eaf9367b4",
+            "id": "05aa5c1d32fb774e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kotlin/Contract 문법.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,19 +101,18 @@
             }
           },
           {
-            "id": "83db8c3790febe1a",
+            "id": "8b99a199067525ac",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kotlin/Contract 문법.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "af443e4c103f3651",
+            "id": "06a912348dae60de",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,13 +123,11 @@
             }
           },
           {
-            "id": "18823fb23b93065c",
+            "id": "c10979b597d69c92",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Kotlin/Contract 문법.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,11 +148,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "46c4272707de2304",
+  "active": "03f670e494048925",
   "lastOpenFiles": [
-    "Kotlin/Contract 문법.md",
+    "Kotlin/Kotlin QueryDSL.md",
+    "Excalidraw/Drawing 2023-11-18 18.03.03.excalidraw.md",
     "Excalidraw",
-    "Spring",
-    "Kotlin"
+    "Kotlin/Contract 문법.md",
+    "Kotlin",
+    "Kotlin QueryDSL.md",
+    "kotlin/Kotlin QueryDSL.md",
+    "kotlin",
+    "Spaces/Home",
+    "Spaces"
   ]
 }

@@ -1,7 +1,13 @@
 [
+<<<<<<< HEAD
   "obsidian-outliner",
   "obsidian-excalidraw-plugin",
   "obsidian-git",
   "emoji-shortcodes",
   "obsidian-plugin-toc"
+=======
+  "obsidian-excalidraw-plugin",
+  "make-md",
+  "obsidian-git"
+>>>>>>> a2e3037 (init)
 ]

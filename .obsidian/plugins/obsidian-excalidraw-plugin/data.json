@@ -57,6 +57,10 @@
   "autoExportLightAndDark": false,
   "autoexportExcalidraw": false,
   "embedType": "excalidraw",
+<<<<<<< HEAD
+=======
+  "embedMarkdownCommentLinks": true,
+>>>>>>> a2e3037 (init)
   "embedWikiLink": true,
   "syncExcalidraw": false,
   "experimentalFileType": false,
@@ -71,7 +75,11 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
+<<<<<<< HEAD
     "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.27",
+=======
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.1",
+>>>>>>> a2e3037 (init)
     "libraryItems": []
   },
   "imageElementNotice": true,
@@ -83,7 +91,11 @@
   "mdCSS": "",
   "scriptEngineSettings": {},
   "defaultTrayMode": true,
+<<<<<<< HEAD
   "previousRelease": "1.9.27",
+=======
+  "previousRelease": "2.0.1",
+>>>>>>> a2e3037 (init)
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
   "latexBoilerplate": "\\color{blue}",
@@ -406,7 +418,21 @@
   "pdfScale": 4,
   "pdfBorderBox": true,
   "pdfGapSize": 20,
+<<<<<<< HEAD
   "pdfLockAfterImport": true,
   "pdfNumColumns": 1,
   "pdfImportScale": 0.3
+=======
+  "pdfGroupPages": false,
+  "pdfLockAfterImport": true,
+  "pdfNumColumns": 1,
+  "pdfNumRows": 1,
+  "pdfDirection": "right",
+  "pdfImportScale": 0.3,
+  "laserSettings": {
+    "DECAY_LENGTH": 50,
+    "DECAY_TIME": 1000,
+    "COLOR": "#ff0000"
+  }
+>>>>>>> a2e3037 (init)
 }

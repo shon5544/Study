@@ -1,7 +1,11 @@
 {
   "commitMessage": "vault backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
+<<<<<<< HEAD
   "autoSaveInterval": 7,
+=======
+  "autoSaveInterval": 0,
+>>>>>>> a2e3037 (init)
   "autoPushInterval": 0,
   "autoPullInterval": 0,
   "autoPullOnBoot": false,
@@ -47,9 +51,13 @@
     },
     "textColorCss": "var(--text-muted)",
     "ignoreWhitespace": false,
+<<<<<<< HEAD
     "gutterSpacingFallbackLength": 5,
     "lastShownAuthorDisplay": "initials",
     "lastShownDateTimeFormatOptions": "date"
+=======
+    "gutterSpacingFallbackLength": 5
+>>>>>>> a2e3037 (init)
   },
   "autoCommitMessage": "vault backup: {{date}}"
 }
