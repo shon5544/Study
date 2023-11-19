@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d921a30fc5a22ac2",
+        "id": "6760b945ca133ff3",
         "type": "tabs",
         "children": [
           {
-            "id": "03f670e494048925",
+            "id": "35e20ff23098ca7e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Kotlin/Test.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Kotlin/Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Kotlin/Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Kotlin/Test.md"
+              }
             }
           }
         ]
@@ -148,12 +156,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "03f670e494048925",
+  "active": "35e20ff23098ca7e",
   "lastOpenFiles": [
     "Kotlin/Kotlin QueryDSL.md",
+    "Kotlin/Test.md",
+    "Kotlin/Contract 문법.md",
     "Excalidraw/Drawing 2023-11-18 18.03.03.excalidraw.md",
     "Excalidraw",
-    "Kotlin/Contract 문법.md",
     "Kotlin",
     "Kotlin QueryDSL.md",
     "kotlin/Kotlin QueryDSL.md",
