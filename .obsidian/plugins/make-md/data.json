@@ -36,13 +36,17 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//Spaces",
-    "//Spaces",
     "//Spaces/Spaces/Home",
     "//Spaces/Spaces/Home",
-    "//Spaces",
-    "//Spaces",
-    "//Kotlin"
+    "//Kotlin",
+    "//Kotlin",
+    "//Spaces/Spaces/Home",
+    "//Spaces/Spaces/Home",
+    "//클린 아키텍처",
+    "//Spaces/Spaces/Home",
+    "//Spaces/Spaces/Home",
+    "//Spring",
+    "//클린 아키텍처"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -64,10 +68,13 @@
   "inlineContextNameLayout": "vertical",
   "waypoints": [
     "Spaces/Home",
-    "/",
-    "spaces://$tags"
+    "spaces://$tags",
+    "/"
   ],
-  "rootSpaces": [],
+  "rootSpaces": [
+    "Spring",
+    "클린 아키텍처"
+  ],
   "spacesUseAlias": false,
   "fmKeyAlias": "aliases",
   "fmKeyBanner": "banner",

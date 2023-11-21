@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6760b945ca133ff3",
+        "id": "64c17733358abcab",
         "type": "tabs",
         "children": [
           {
-            "id": "35e20ff23098ca7e",
+            "id": "0ebcd7bb29dcaae6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin/Kotlin QueryDSL.md",
+                "file": "클린 아키텍처/계층형 아키텍처.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kotlin/Kotlin QueryDSL.md",
+                "file": "클린 아키텍처/계층형 아키텍처.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kotlin/Kotlin QueryDSL.md",
+                "file": "클린 아키텍처/계층형 아키텍처.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kotlin/Kotlin QueryDSL.md"
+                "file": "클린 아키텍처/계층형 아키텍처.md"
               }
             }
           }
@@ -152,23 +152,28 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "35e20ff23098ca7e",
+  "active": "0ebcd7bb29dcaae6",
   "lastOpenFiles": [
-    "Kotlin/Test.md",
-    "Kotlin/Kotlin QueryDSL.md",
+    "클린 아키텍처/계층형 아키텍처.md",
     "Kotlin/Kotlin QueryDSL.md",
     "Kotlin/Contract 문법.md",
+    "Spring/ArgumentResolver.md",
+    "Spaces/Home",
+    "Spaces",
     "Excalidraw/Drawing 2023-11-18 18.03.03.excalidraw.md",
+    "Kotlin/Test.md",
+    "클린 아키텍처/클린 아키텍처.md",
+    "클린 아키텍처",
+    "Untitled.md",
+    "Spring/Spring.md",
+    "Spring",
     "Excalidraw",
     "Kotlin",
     "Kotlin QueryDSL.md",
     "kotlin/Kotlin QueryDSL.md",
-    "kotlin",
-    "Spaces/Home",
-    "Spaces"
+    "kotlin"
   ]
 }
