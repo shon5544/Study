@@ -42,11 +42,10 @@
     "//Kotlin",
     "//Spaces/Spaces/Home",
     "//Spaces/Spaces/Home",
-    "//클린 아키텍처",
     "//Spaces/Spaces/Home",
     "//Spaces/Spaces/Home",
     "//Spring",
-    "//클린 아키텍처"
+    "//Spring"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -73,7 +72,8 @@
   ],
   "rootSpaces": [
     "Spring",
-    "클린 아키텍처"
+    "클린 아키텍처",
+    "코테"
   ],
   "spacesUseAlias": false,
   "fmKeyAlias": "aliases",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "클린 아키텍처/계층형 아키텍처.md",
+                "file": "코테/14888.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "클린 아키텍처/계층형 아키텍처.md",
+                "file": "코테/14888.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "클린 아키텍처/계층형 아키텍처.md",
+                "file": "코테/14888.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "클린 아키텍처/계층형 아키텍처.md"
+                "file": "코테/14888.md"
               }
             }
           }
@@ -157,10 +157,13 @@
   },
   "active": "0ebcd7bb29dcaae6",
   "lastOpenFiles": [
+    "코테/14888.md",
+    "코테/코테.md",
+    "코테",
     "클린 아키텍처/계층형 아키텍처.md",
+    "Spring/ArgumentResolver.md",
     "Kotlin/Kotlin QueryDSL.md",
     "Kotlin/Contract 문법.md",
-    "Spring/ArgumentResolver.md",
     "Spaces/Home",
     "Spaces",
     "Excalidraw/Drawing 2023-11-18 18.03.03.excalidraw.md",
