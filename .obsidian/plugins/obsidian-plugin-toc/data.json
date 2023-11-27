@@ -2,7 +2,7 @@
   "minimumDepth": 2,
   "maximumDepth": 6,
   "listStyle": "number",
-  "useMarkdown": true,
+  "useMarkdown": false,
   "githubCompat": false,
   "title": "## 목차"
 }
