@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin/Contract 문법.md",
+                "file": "클린 아키텍처/3. 코드 구성하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kotlin/Contract 문법.md",
+                "file": "클린 아키텍처/3. 코드 구성하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kotlin/Contract 문법.md",
+                "file": "클린 아키텍처/3. 코드 구성하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kotlin/Contract 문법.md"
+                "file": "클린 아키텍처/3. 코드 구성하기.md"
               }
             }
           }
@@ -157,26 +157,31 @@
   },
   "active": "5f79af7793597e53",
   "lastOpenFiles": [
+    "클린 아키텍처/2. 의존성 역전하기.md",
     "클린 아키텍처/3. 코드 구성하기.md",
+    "클린 아키텍처/1. 계층형 아키텍처.md",
+    "Spring/Spring 1.md",
+    "Spring/Spring 1.md",
+    "Spring/ArgumentResolver.md",
+    "Kotlin/Kotlin.md",
+    "Kotlin/Contract 문법.md",
+    "Kotlin/Kotlin QueryDSL.md",
+    "Kotlin/Kotlin.md",
+    "Kotlin/Kotlin 1.md",
     "Pasted image 20231127210435.png",
     "Pasted image 20231127210231.png",
     "Pasted image 20231127195026.png",
-    "클린 아키텍처/2. 의존성 역전하기.md",
     "Pasted image 20231127193307.png",
     "Snipaste_2023-11-27_18-55-44@2x.png",
     "Pasted image 20231127185500.png",
     "Pasted image 20231127183227.png",
     "Pasted image 20231127161116.png",
     "Pasted image 20231127160403.png",
-    "클린 아키텍처/1. 계층형 아키텍처.md",
-    "클린 아키텍처/Pasted image 20231127154817.png",
+    "Pasted image 20231127154817.png",
     "코테/14888.md",
     "코테/2309.md",
-    "Kotlin/Contract 문법.md",
-    "Kotlin/Kotlin QueryDSL.md",
     "코테/코테.md",
     "코테",
-    "Spring/ArgumentResolver.md",
     "Spaces/Home",
     "Spaces",
     "Excalidraw/Drawing 2023-11-18 18.03.03.excalidraw.md",
