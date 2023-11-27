@@ -47,7 +47,8 @@
     "//Spring",
     "//Spring",
     "//클린 아키텍처",
-    "//코테"
+    "//코테",
+    "//클린 아키텍처"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
