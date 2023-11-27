@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "64c17733358abcab",
+        "id": "76a051595a88ec23",
         "type": "tabs",
         "children": [
           {
-            "id": "0ebcd7bb29dcaae6",
+            "id": "14cf72ddc481920c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코테/14888.md",
+                "file": "클린 아키텍처/계층형 아키텍처.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코테/14888.md",
+                "file": "클린 아키텍처/계층형 아키텍처.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코테/14888.md",
+                "file": "클린 아키텍처/계층형 아키텍처.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코테/14888.md"
+                "file": "클린 아키텍처/계층형 아키텍처.md"
               }
             }
           }
@@ -155,15 +155,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0ebcd7bb29dcaae6",
+  "active": "14cf72ddc481920c",
   "lastOpenFiles": [
+    "코테/2309.md",
+    "코테/14888.md",
+    "Kotlin/Contract 문법.md",
     "클린 아키텍처/계층형 아키텍처.md",
     "Kotlin/Kotlin QueryDSL.md",
-    "코테/14888.md",
     "코테/코테.md",
     "코테",
     "Spring/ArgumentResolver.md",
-    "Kotlin/Contract 문법.md",
     "Spaces/Home",
     "Spaces",
     "Excalidraw/Drawing 2023-11-18 18.03.03.excalidraw.md",
