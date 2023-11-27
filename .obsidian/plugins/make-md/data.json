@@ -45,7 +45,9 @@
     "//Spaces/Spaces/Home",
     "//Spaces/Spaces/Home",
     "//Spring",
-    "//Spring"
+    "//Spring",
+    "//클린 아키텍처",
+    "//코테"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
