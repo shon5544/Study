@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c92e141133f5f957",
+        "id": "07b8c005d3593e27",
         "type": "tabs",
         "children": [
           {
-            "id": "5f79af7793597e53",
+            "id": "c3dbb2aeaf558102",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "클린 아키텍처/3. 코드 구성하기.md",
+                "file": "명진님의 네트워크/os/동기와 비동기 (Blocking, None-Blocking).md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "클린 아키텍처/3. 코드 구성하기.md",
+                "file": "명진님의 네트워크/os/동기와 비동기 (Blocking, None-Blocking).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "클린 아키텍처/3. 코드 구성하기.md",
+                "file": "명진님의 네트워크/os/동기와 비동기 (Blocking, None-Blocking).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "클린 아키텍처/3. 코드 구성하기.md"
+                "file": "명진님의 네트워크/os/동기와 비동기 (Blocking, None-Blocking).md"
               }
             }
           }
@@ -155,47 +155,52 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5f79af7793597e53",
+  "active": "c3dbb2aeaf558102",
   "lastOpenFiles": [
-    "클린 아키텍처/Untitled.md",
-    "클린 아키텍처/3. 코드 구성하기.md",
-    "클린 아키텍처/2. 의존성 역전하기.md",
-    "Pasted image 20231128150608.png",
-    "코테/14888 - 연산자 끼워넣기.md",
-    "코테/2309 - 일곱 난쟁이.md",
-    "클린 아키텍처/1. 계층형 아키텍처.md",
-    "Spring/Spring 1.md",
-    "Spring/Spring 1.md",
-    "Spring/ArgumentResolver.md",
-    "Kotlin/Kotlin.md",
-    "Kotlin/Contract 문법.md",
-    "Kotlin/Kotlin QueryDSL.md",
-    "Kotlin/Kotlin.md",
-    "Kotlin/Kotlin 1.md",
-    "Pasted image 20231127210435.png",
-    "Pasted image 20231127210231.png",
-    "Pasted image 20231127195026.png",
-    "Pasted image 20231127193307.png",
-    "Snipaste_2023-11-27_18-55-44@2x.png",
-    "Pasted image 20231127185500.png",
-    "Pasted image 20231127183227.png",
-    "Pasted image 20231127161116.png",
-    "Pasted image 20231127160403.png",
-    "코테/코테.md",
-    "코테",
-    "Spaces/Home",
-    "Spaces",
-    "Excalidraw/Drawing 2023-11-18 18.03.03.excalidraw.md",
-    "Kotlin/Test.md",
-    "클린 아키텍처/클린 아키텍처.md",
-    "클린 아키텍처",
-    "Untitled.md",
-    "Spring/Spring.md",
-    "Spring",
-    "Excalidraw",
-    "Kotlin",
-    "Kotlin QueryDSL.md",
-    "kotlin/Kotlin QueryDSL.md",
-    "kotlin"
+    "명진님의 네트워크/os/Inter Process Communication.md",
+    "명진님의 네트워크/os/IO Multiplexing.md",
+    "명진님의 네트워크/os/동기와 비동기 (Blocking, None-Blocking).md",
+    "명진님의 네트워크/os/메모리.md",
+    "명진님의 네트워크/os/스케줄러.md",
+    "명진님의 네트워크/network/이더넷 톺아보기.md",
+    "명진님의 네트워크/os/code/syscall/syscall_overhead.c",
+    "명진님의 네트워크/os/code/syscall/syscall_overhead",
+    "명진님의 네트워크/os/code/syscall/simple_print.c",
+    "명진님의 네트워크/os/code/syscall/simple_print",
+    "명진님의 네트워크/os/code/sync_async/sync.c",
+    "명진님의 네트워크/os/code/sync_async/small.txt",
+    "명진님의 네트워크/os/code/sync_async/large.txt",
+    "명진님의 네트워크/os/code/sync_async/file.txt",
+    "명진님의 네트워크/os/code/sync_async/event_timeout.py",
+    "명진님의 네트워크/os/code/sync_async/busy_wait_timeout.py",
+    "명진님의 네트워크/os/프로세스.md",
+    "명진님의 네트워크/os/커널.md",
+    "명진님의 네트워크/os/시스템 콜.md",
+    "명진님의 네트워크/os/스케쥴링 기법.md",
+    "명진님의 네트워크/network/TCP는 커널에서 처리한다.md",
+    "명진님의 네트워크/network/TCP 기초.md",
+    "명진님의 네트워크/attachments/network/ethernet/Pasted image 20231011170147.png",
+    "명진님의 네트워크/attachments/network/ethernet/Pasted image 20231011152502.png",
+    "명진님의 네트워크/attachments/network/ethernet/Pasted image 20231011151641.png",
+    "명진님의 네트워크/attachments/network/ethernet/Pasted image 20231011150941.png",
+    "명진님의 네트워크/attachments/network/ethernet/Pasted image 20231011140038.png",
+    "명진님의 네트워크/attachments/os/스크린샷 2023-11-09 오전 11.32.06.png",
+    "명진님의 네트워크/attachments/os/스크린샷 2023-10-20 오후 3.44.13.png",
+    "명진님의 네트워크/attachments/os/스크린샷 2023-10-20 오후 3.38.22.png",
+    "명진님의 네트워크/attachments/os/스크린샷 2023-10-20 오후 12.27.51.png",
+    "명진님의 네트워크/attachments/os/스크린샷 2023-10-20 오후 1.40.00.png",
+    "명진님의 네트워크/README.md",
+    "명진님의 네트워크/명진님의 네트워크.md",
+    "명진님의 네트워크/스케줄러.md",
+    "명진님의 네트워크/프로세스.md",
+    "명진님의 네트워크/동기와 비동기 (Blocking, None-Blocking).md",
+    "명진님의 네트워크/스케쥴링 기법.md",
+    "명진님의 네트워크/시스템 콜.md",
+    "명진님의 네트워크/커널.md",
+    "명진님의 네트워크/메모리.md",
+    "명진님의 네트워크/TCP는 커널에서 처리한다.md",
+    "명진님의 네트워크/TCP 기초.md",
+    "명진님의 네트워크/이더넷 톺아보기.md",
+    "명진님의 네트워크/Inter Process Communication.md"
   ]
 }
