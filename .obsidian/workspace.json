@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "07b8c005d3593e27",
+        "id": "bfffc2900212dce6",
         "type": "tabs",
         "children": [
           {
-            "id": "c3dbb2aeaf558102",
+            "id": "9e5856f88971f91b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "명진님의 네트워크/os/동기와 비동기 (Blocking, None-Blocking).md",
-                "mode": "source",
-                "source": false
+                "path": "데이터 통신과 네트워크"
               }
             }
           }
@@ -94,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "명진님의 네트워크/os/동기와 비동기 (Blocking, None-Blocking).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "명진님의 네트워크/os/동기와 비동기 (Blocking, None-Blocking).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +129,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "명진님의 네트워크/os/동기와 비동기 (Blocking, None-Blocking).md"
-              }
+              "state": {}
             }
           }
         ]
@@ -155,11 +149,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c3dbb2aeaf558102",
+  "active": "9e5856f88971f91b",
   "lastOpenFiles": [
+    "데이터 통신과 네트워크/Network Layer.md",
+    "Backend/Elasticsearch.md",
+    "명진님의 네트워크/os/동기와 비동기 (Blocking, None-Blocking).md",
+    "Backend/Backend.md",
+    "Backend",
     "명진님의 네트워크/os/Inter Process Communication.md",
     "명진님의 네트워크/os/IO Multiplexing.md",
-    "명진님의 네트워크/os/동기와 비동기 (Blocking, None-Blocking).md",
     "명진님의 네트워크/os/메모리.md",
     "명진님의 네트워크/os/스케줄러.md",
     "명진님의 네트워크/network/이더넷 톺아보기.md",
@@ -172,7 +170,6 @@
     "명진님의 네트워크/os/code/sync_async/large.txt",
     "명진님의 네트워크/os/code/sync_async/file.txt",
     "명진님의 네트워크/os/code/sync_async/event_timeout.py",
-    "명진님의 네트워크/os/code/sync_async/busy_wait_timeout.py",
     "명진님의 네트워크/os/프로세스.md",
     "명진님의 네트워크/os/커널.md",
     "명진님의 네트워크/os/시스템 콜.md",
@@ -199,8 +196,6 @@
     "명진님의 네트워크/커널.md",
     "명진님의 네트워크/메모리.md",
     "명진님의 네트워크/TCP는 커널에서 처리한다.md",
-    "명진님의 네트워크/TCP 기초.md",
-    "명진님의 네트워크/이더넷 톺아보기.md",
-    "명진님의 네트워크/Inter Process Communication.md"
+    "명진님의 네트워크/TCP 기초.md"
   ]
 }

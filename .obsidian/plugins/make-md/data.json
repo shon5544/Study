@@ -42,13 +42,13 @@
     "//Spaces/Spaces/Home",
     "//Spaces/Spaces/Home",
     "//Spaces/Spaces/Home",
-    "//클린 아키텍처",
-    "//명진님의 네트워크",
-    "//명진님의 네트워크",
     "//명진님의 네트워크/명진님의 네트워크/network/명진님의 네트워크/network/code",
     "//명진님의 네트워크/명진님의 네트워크/network",
     "//명진님의 네트워크/명진님의 네트워크/os",
-    "//명진님의 네트워크/명진님의 네트워크/os/명진님의 네트워크/os/code/명진님의 네트워크/os/code/ipc"
+    "//명진님의 네트워크/명진님의 네트워크/os/명진님의 네트워크/os/code/명진님의 네트워크/os/code/ipc",
+    "//Backend",
+    "//데이터 통신과 네트워크",
+    "//데이터 통신과 네트워크"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -79,7 +79,8 @@
     "코테",
     "데이터 통신과 네트워크",
     "명진님의 네트워크",
-    "명진님의 네트워크"
+    "명진님의 네트워크",
+    "Backend"
   ],
   "spacesUseAlias": false,
   "fmKeyAlias": "aliases",
