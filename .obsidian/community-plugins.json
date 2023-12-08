@@ -1,5 +1,6 @@
 [
   "make-md",
   "obsidian-git",
-  "obsidian-plugin-toc"
+  "obsidian-plugin-toc",
+  "obsidian-excalidraw-plugin"
 ]

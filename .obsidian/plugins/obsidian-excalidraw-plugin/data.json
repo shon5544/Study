@@ -57,10 +57,7 @@
   "autoExportLightAndDark": false,
   "autoexportExcalidraw": false,
   "embedType": "excalidraw",
-<<<<<<< HEAD
-=======
   "embedMarkdownCommentLinks": true,
->>>>>>> a2e3037 (init)
   "embedWikiLink": true,
   "syncExcalidraw": false,
   "experimentalFileType": false,
@@ -75,11 +72,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-<<<<<<< HEAD
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.27",
-=======
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.1",
->>>>>>> a2e3037 (init)
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.4",
     "libraryItems": []
   },
   "imageElementNotice": true,
@@ -91,11 +84,7 @@
   "mdCSS": "",
   "scriptEngineSettings": {},
   "defaultTrayMode": true,
-<<<<<<< HEAD
-  "previousRelease": "1.9.27",
-=======
-  "previousRelease": "2.0.1",
->>>>>>> a2e3037 (init)
+  "previousRelease": "2.0.4",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
   "latexBoilerplate": "\\color{blue}",
@@ -418,11 +407,6 @@
   "pdfScale": 4,
   "pdfBorderBox": true,
   "pdfGapSize": 20,
-<<<<<<< HEAD
-  "pdfLockAfterImport": true,
-  "pdfNumColumns": 1,
-  "pdfImportScale": 0.3
-=======
   "pdfGroupPages": false,
   "pdfLockAfterImport": true,
   "pdfNumColumns": 1,
@@ -433,6 +417,21 @@
     "DECAY_LENGTH": 50,
     "DECAY_TIME": 1000,
     "COLOR": "#ff0000"
-  }
->>>>>>> a2e3037 (init)
+  },
+  "embeddableMarkdownDefaults": {
+    "useObsidianDefaults": false,
+    "backgroundMatchCanvas": false,
+    "backgroundMatchElement": true,
+    "backgroundColor": "#fff",
+    "backgroundOpacity": 60,
+    "borderMatchElement": true,
+    "borderColor": "#fff",
+    "borderOpacity": 0,
+    "filenameVisible": false
+  },
+  "canvasImmersiveEmbed": true,
+  "startupScriptPath": "",
+  "openAIAPIToken": "",
+  "openAIDefaultTextModel": "gpt-3.5-turbo-1106",
+  "openAIDefaultVisionModel": "gpt-4-vision-preview"
 }
