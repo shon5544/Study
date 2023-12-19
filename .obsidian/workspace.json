@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "1b971b31d53d3a03",
+        "id": "54e1deb0038a08b8",
         "type": "tabs",
         "children": [
           {
-            "id": "cdb69bafcc1ce98b",
+            "id": "5dc680bda47e1019",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "클린 아키텍처"
+                "file": "학교 공부/데이터 통신과 네트워크/데통네 시험 정리.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "클린 아키텍처/클린 아키텍처.md",
+                "file": "학교 공부/데이터 통신과 네트워크/데통네 시험 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "클린 아키텍처/클린 아키텍처.md",
+                "file": "학교 공부/데이터 통신과 네트워크/데통네 시험 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "클린 아키텍처/클린 아키텍처.md"
+                "file": "학교 공부/데이터 통신과 네트워크/데통네 시험 정리.md"
               }
             }
           }
@@ -154,22 +156,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "abf2a948d27a84e9",
+  "active": "5dc680bda47e1019",
   "lastOpenFiles": [
-    "Images/Pasted image 20231128170637.png",
-    "Images/Pasted Image 20231205215505_303.png",
-    "Obsidian Vault.md",
-    "Images/Pasted image 20231205212339.png",
-    "Images/Pasted Image 20231205211737_313.png",
-    "Excalidraw/22Drawing 2023-12-02 19.54.38.excalidraw.md",
-    "Images/Pasted Image 20231205212338_180.png",
+    "학교 공부/데이터 통신과 네트워크/데통네 시험 정리.md",
+    "Images/Pasted image 20231211170414.png",
+    "학교 공부/데이터 통신과 네트워크/Network Layer.md",
+    "학교 공부/데이터 통신과 네트워크/데이터 통신과 네트워크.md",
+    "학교 공부/윈도우 프로그래밍 및 실습/윈프 시험 대비.md",
+    "Images/Pasted image 20231210183308.png",
+    "Images/Pasted image 20231210183111.png",
+    "Images/Pasted image 20231210183013.png",
+    "Images/Pasted image 20231210182649.png",
+    "Images/Pasted image 20231210182543.png",
+    "Images/Pasted image 20231210182531.png",
     "Images/Images.md",
+    "Images/Pasted image 20231210182419.png",
+    "학교 공부/윈도우 프로그래밍 및 실습/윈도우 프로그래밍 및 실습.md",
+    "학교 공부/학교 공부.md",
+    "Images/이미지 출처.md",
+    "학교 공부",
+    "Obsidian Vault.md",
+    "학교 공부/윈도우 프로그래밍 및 실습",
+    "코테/코테.md",
+    "Kotlin/Kotlin.md",
+    "Images/Pasted image 20231208172718.png",
+    "클린 아키텍처/클린 아키텍처.md",
+    "Images/Pasted image 20231128170637.png",
+    "Excalidraw/22Drawing 2023-12-02 19.54.38.excalidraw.md",
     "Backend/Backend.md",
     "Images",
     "Untitled.md",
-    "Images/Pasted image 20231128180806.png",
     "무제 파일.md",
-    "이미지 출처.md",
     "클린 아키텍처/3. 코드 구성하기.md",
     "클린 아키텍처/4. 유스케이스 구현하기.md",
     "클린 아키텍처/2. 의존성 역전하기.md",
@@ -177,30 +194,14 @@
     "명진님의 네트워크/os/동기와 비동기 (Blocking, None-Blocking).md",
     "명진님의 네트워크/os/커널.md",
     "Excalidraw/Drawing 2023-12-05 21.14.59.excalidraw.md",
-    "Images/Pasted Image 20231205214943_243.png",
-    "Images/Pasted Image 20231205213502_339.png",
     "Excalidraw/Drawing 2023-12-02 19.58.41.excalidraw.md",
     "Excalidraw/Drawing 2023-11-18 18.03.03.excalidraw.md",
-    "클린 아키텍처/클린 아키텍처.md",
-    "Images/Pasted Image 20231205211824_338.png",
-    "Backend/Untitled.md",
-    "Backend/Reactive Programming.md",
-    "Backend/Elasticsearch.md",
-    "데이터 통신과 네트워크/Network Layer.md",
     "Backend",
-    "명진님의 네트워크/os/Inter Process Communication.md",
-    "명진님의 네트워크/os/IO Multiplexing.md",
-    "명진님의 네트워크/os/메모리.md",
-    "명진님의 네트워크/os/스케줄러.md",
     "명진님의 네트워크/os/code/syscall/syscall_overhead.c",
     "명진님의 네트워크/os/code/syscall/syscall_overhead",
     "명진님의 네트워크/os/code/syscall/simple_print.c",
     "명진님의 네트워크/os/code/syscall/simple_print",
     "명진님의 네트워크/os/code/sync_async/sync.c",
-    "명진님의 네트워크/os/code/sync_async/small.txt",
-    "명진님의 네트워크/os/code/sync_async/large.txt",
-    "명진님의 네트워크/os/code/sync_async/file.txt",
-    "명진님의 네트워크/attachments/network/ethernet/Pasted image 20231011170147.png",
-    "명진님의 네트워크/attachments/network/ethernet/Pasted image 20231011152502.png"
+    "명진님의 네트워크/os/code/sync_async/small.txt"
   ]
 }
