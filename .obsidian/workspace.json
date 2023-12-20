@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d921a30fc5a22ac2",
+        "id": "54e1deb0038a08b8",
         "type": "tabs",
         "children": [
           {
-            "id": "03f670e494048925",
+            "id": "5dc680bda47e1019",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "Excalidraw"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -150,14 +148,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "03f670e494048925",
+  "active": "5dc680bda47e1019",
   "lastOpenFiles": [
-    "Kotlin QueryDSL.md",
+    "코테/알고리즘/다이나믹 프로그래밍.md",
     "kotlin/Kotlin QueryDSL.md",
     "kotlin",
-    "Excalidraw/Drawing 2023-11-18 18.03.03.excalidraw.md",
-    "Excalidraw",
-    "Spaces/Home",
-    "Spaces"
+    "코테/알고리즘/알고리즘.md",
+    "코테/연습/연습.md",
+    "코테/연습",
+    "연ㅡㅂ/연습.md",
+    "연ㅡㅂ",
+    "학교 공부/데이터 통신과 네트워크/데통네 시험 정리.md",
+    "코테/알고리즘",
+    "코테/Untitled.md",
+    "Images/Pasted image 20231211170414.png",
+    "학교 공부/데이터 통신과 네트워크/Network Layer.md",
+    "학교 공부/데이터 통신과 네트워크/데이터 통신과 네트워크.md",
+    "학교 공부/윈도우 프로그래밍 및 실습/윈프 시험 대비.md",
+    "Images/Pasted image 20231210183308.png",
+    "Images/Pasted image 20231210183111.png",
+    "Images/Pasted image 20231210183013.png",
+    "Images/Pasted image 20231210182649.png",
+    "Images/Pasted image 20231210182543.png",
+    "Images/Pasted image 20231210182531.png",
+    "Images/Images.md",
+    "Images/Pasted image 20231210182419.png",
+    "학교 공부/윈도우 프로그래밍 및 실습/윈도우 프로그래밍 및 실습.md",
+    "학교 공부/학교 공부.md",
+    "Images/이미지 출처.md",
+    "학교 공부",
+    "Obsidian Vault.md",
+    "학교 공부/윈도우 프로그래밍 및 실습",
+    "코테/코테.md",
+    "Kotlin/Kotlin.md",
+    "Images/Pasted image 20231208172718.png",
+    "클린 아키텍처/클린 아키텍처.md",
+    "Images/Pasted image 20231128170637.png",
+    "Excalidraw/22Drawing 2023-12-02 19.54.38.excalidraw.md",
+    "Backend/Backend.md",
+    "Images",
+    "Untitled.md",
+    "무제 파일.md",
+    "클린 아키텍처/3. 코드 구성하기.md",
+    "클린 아키텍처/4. 유스케이스 구현하기.md",
+    "클린 아키텍처/2. 의존성 역전하기.md",
+    "클린 아키텍처/1. 계층형 아키텍처.md",
+    "Backend",
+    "명진님의 네트워크/os/code/syscall/syscall_overhead.c",
+    "명진님의 네트워크/os/code/syscall/syscall_overhead"
   ]
 }
