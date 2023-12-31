@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "54e1deb0038a08b8",
+        "id": "ee9d8338cbd9cc87",
         "type": "tabs",
         "children": [
           {
-            "id": "5dc680bda47e1019",
+            "id": "7c79521950fb5024",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "코테/알고리즘/다이나믹 프로그래밍.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코테/알고리즘/다이나믹 프로그래밍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코테/알고리즘/다이나믹 프로그래밍.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "코테/알고리즘/다이나믹 프로그래밍.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -156,53 +148,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5dc680bda47e1019",
+  "active": "7c79521950fb5024",
   "lastOpenFiles": [
-    "코테/알고리즘/알고리즘.md",
-    "코테/알고리즘/다이나믹 프로그래밍.md",
-    "코테/연습/연습.md",
-    "코테/연습",
-    "연ㅡㅂ/연습.md",
-    "연ㅡㅂ",
-    "학교 공부/데이터 통신과 네트워크/데통네 시험 정리.md",
-    "코테/알고리즘",
-    "코테/Untitled.md",
-    "Images/Pasted image 20231211170414.png",
-    "학교 공부/데이터 통신과 네트워크/Network Layer.md",
-    "학교 공부/데이터 통신과 네트워크/데이터 통신과 네트워크.md",
-    "학교 공부/윈도우 프로그래밍 및 실습/윈프 시험 대비.md",
-    "Images/Pasted image 20231210183308.png",
-    "Images/Pasted image 20231210183111.png",
-    "Images/Pasted image 20231210183013.png",
-    "Images/Pasted image 20231210182649.png",
-    "Images/Pasted image 20231210182543.png",
-    "Images/Pasted image 20231210182531.png",
-    "Images/Images.md",
-    "Images/Pasted image 20231210182419.png",
-    "학교 공부/윈도우 프로그래밍 및 실습/윈도우 프로그래밍 및 실습.md",
-    "학교 공부/학교 공부.md",
-    "Images/이미지 출처.md",
-    "학교 공부",
-    "Obsidian Vault.md",
-    "학교 공부/윈도우 프로그래밍 및 실습",
-    "코테/코테.md",
+    "코테/연습/18353 - 병사 배치하기.md",
+    "코테/2156.md",
+    "backend/Backend.md",
+    "Kotlin/Kotlin QueryDSL.md",
+    "코테/연습/DP/14002.py",
+    "코테/연습/DP/144",
+    "Excalidraw/Drawing 2023-12-27 22.27.24.excalidraw.md",
+    "코테/1932 - 정수 삼각형.md",
+    "코테/2156 - 포도주 시식.md",
+    "코테/14888 - 연산자 끼워넣기.md",
+    "코테/2309 - 일곱 난쟁이.md",
+    "코테/연습/DP/1520 - 내리막길.md",
+    "코테/연습/DP/12865.py",
+    "backend/ELK/3. Elasticsearch의 확장성.md",
+    "코테/연습/DP/1520.py",
+    "Images/Pasted Image 20231229223638_491.png",
     "Kotlin/Kotlin.md",
-    "Images/Pasted image 20231208172718.png",
-    "클린 아키텍처/클린 아키텍처.md",
-    "Images/Pasted image 20231128170637.png",
-    "Excalidraw/22Drawing 2023-12-02 19.54.38.excalidraw.md",
-    "Backend/Backend.md",
-    "Images",
-    "Untitled.md",
-    "무제 파일.md",
-    "클린 아키텍처/3. 코드 구성하기.md",
-    "클린 아키텍처/4. 유스케이스 구현하기.md",
-    "클린 아키텍처/2. 의존성 역전하기.md",
-    "클린 아키텍처/1. 계층형 아키텍처.md",
-    "명진님의 네트워크/os/동기와 비동기 (Blocking, None-Blocking).md",
-    "Backend",
+    "backend/Reactive Programming.md",
+    "명진님의 네트워크/os/쓰레드.md",
+    "명진님의 네트워크/network/데이터 단위.md",
+    "명진님의 네트워크/network/네트워크 첫 걸음.md",
+    "명진님의 네트워크/network/UDP 톺아보기 (+TCP와 차이).md",
     "명진님의 네트워크/os/code/syscall/syscall_overhead.c",
     "명진님의 네트워크/os/code/syscall/syscall_overhead",
-    "명진님의 네트워크/os/code/syscall/simple_print.c"
+    "명진님의 네트워크/os/code/syscall/simple_print.c",
+    "명진님의 네트워크/os/code/syscall/simple_print",
+    "명진님의 네트워크/os/code/sync_async/sync.c",
+    "명진님의 네트워크/os/code/sync_async/small.txt",
+    "명진님의 네트워크/attachments/network/ethernet/Pasted image 20231011170147.png",
+    "명진님의 네트워크/attachments/network/ethernet/Pasted image 20231011152502.png",
+    "명진님의 네트워크/attachments/network/ethernet/Pasted image 20231011151641.png",
+    "명진님의 네트워크/attachments/network/ethernet/Pasted image 20231011150941.png",
+    "명진님의 네트워크/attachments/network/ethernet/Pasted image 20231011140038.png",
+    "명진님의 네트워크/attachments/os/스크린샷 2023-11-09 오전 11.32.06.png",
+    "명진님의 네트워크/attachments/os/스크린샷 2023-10-20 오후 3.44.13.png",
+    "명진님의 네트워크/attachments/os/스크린샷 2023-10-20 오후 3.38.22.png",
+    "명진님의 네트워크/attachments/os/스크린샷 2023-10-20 오후 12.27.51.png",
+    "명진님의 네트워크/os/프로세스.md",
+    "명진님의 네트워크/os/파일 시스템.md",
+    "명진님의 네트워크/os/커널.md",
+    "명진님의 네트워크/os/시스템 콜.md",
+    "명진님의 네트워크/os/스케쥴링 기법.md",
+    "명진님의 네트워크/os/스케줄러.md",
+    "명진님의 네트워크/os/메모리.md",
+    "명진님의 네트워크/os/동기화.md",
+    "명진님의 네트워크/os/동기와 비동기 (Blocking, None-Blocking).md"
   ]
 }
