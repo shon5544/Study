@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "코테/연습/dfs&bfs/11724 - 연결 요소의 개수.md",
+                "file": "클린 아키텍처/4. 유스케이스 구현하기.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "649e34d2c32e73ba",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-01-18 14.38.10.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f603f03fdfd92c43",
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "코테/연습/dfs&bfs/11724 - 연결 요소의 개수.md",
+                "file": "Excalidraw/Drawing 2024-01-18 14.38.10.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "코테/연습/dfs&bfs/11724 - 연결 요소의 개수.md",
+                "file": "Excalidraw/Drawing 2024-01-18 14.38.10.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "코테/연습/dfs&bfs/11724 - 연결 요소의 개수.md"
+                "file": "Excalidraw/Drawing 2024-01-18 14.38.10.excalidraw.md"
               }
             }
           }
@@ -156,14 +168,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8e1b510e5f071dba",
+  "active": "649e34d2c32e73ba",
   "lastOpenFiles": [
+    "클린 아키텍처/4. 유스케이스 구현하기.md",
+    "Excalidraw/Drawing 2024-01-18 14.38.10.excalidraw.md",
+    "코테/연습/dfs&bfs/11724 - 연결 요소의 개수.md",
     "코테/연습/그래프/1647.py",
     "코테/연습/그래프",
     "코테/연습/dfs&bfs/tempCodeRunnerFile.py",
     "코테/연습/dfs&bfs/1987.py",
     "Images/Pasted image 20240116181822.png",
-    "코테/연습/dfs&bfs/11724 - 연결 요소의 개수.md",
     "코테/연습/연습.md",
     "명진님의 네트워크/os/동기와 비동기 (Blocking, None-Blocking).md",
     "명진님의 네트워크/network/MAC 계층.md",
@@ -182,7 +196,6 @@
     "코테/연습/정렬/18310.py",
     "코테/연습/정렬",
     "코테/정렬/18310.py",
-    "코테/정렬",
     "코테/연습/이진탐색/2437 - 저울.md",
     "코테/2156 - 포도주 시식.md",
     "코테/1932 - 정수 삼각형.md",
@@ -198,7 +211,6 @@
     "학교 공부/윈도우 프로그래밍 및 실습/윈프 시험 대비.md",
     "학교 공부/윈도우 프로그래밍 및 실습/윈도우 프로그래밍 및 실습.md",
     "학교 공부/데이터 통신과 네트워크/데통네 시험 정리.md",
-    "학교 공부/데이터 통신과 네트워크/데이터 통신과 네트워크.md",
     "Images/Snipaste_2023-11-27_18-55-44@2x.png",
     "Images/Pasted image 20231211170414.png",
     "Images/Pasted image 20231210183308.png",
