@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f603f03fdfd92c43",
@@ -106,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-18 14.38.10.excalidraw.md",
+                "file": "클린 아키텍처/4. 유스케이스 구현하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-18 14.38.10.excalidraw.md",
+                "file": "클린 아키텍처/4. 유스케이스 구현하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-18 14.38.10.excalidraw.md"
+                "file": "클린 아키텍처/4. 유스케이스 구현하기.md"
               }
             }
           }
@@ -168,11 +166,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "649e34d2c32e73ba",
+  "active": "8e1b510e5f071dba",
   "lastOpenFiles": [
-    "클린 아키텍처/4. 유스케이스 구현하기.md",
     "Excalidraw/Drawing 2024-01-18 14.38.10.excalidraw.md",
     "코테/연습/dfs&bfs/11724 - 연결 요소의 개수.md",
+    "클린 아키텍처/4. 유스케이스 구현하기.md",
     "코테/연습/그래프/1647.py",
     "코테/연습/그래프",
     "코테/연습/dfs&bfs/tempCodeRunnerFile.py",
