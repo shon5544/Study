@@ -17,7 +17,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "MSA/2. MSA.md",
+                    "file": "MSA/2. MSA 개요.md",
                     "mode": "source",
                     "source": false
                   }
@@ -59,7 +59,7 @@
                       },
                       "serial": {
                         "columns": 146,
-                        "data": "\u001b[40m shon 😎 \u001b[30;44m ~/Documents/Obsidian Vault \u001b[34;43m\u001b[30m  main ± >R>\u001b[33;49m\r\n\u001b[34m\u001b[0m \u001b[32mgit\u001b[0m ",
+                        "data": "\u001b[40m shon 😎 \u001b[30;44m ~/Documents/Obsidian Vault \u001b[34;43m\u001b[30m  main ± >R>\u001b[33;49m\r\n\u001b[34m\u001b[0m \u001b[32mgit\u001b[0m add \u001b[4m.\r\n\u001b[40;24m shon 😎 \u001b[30;44m ~/Documents/Obsidian Vault \u001b[34;43m\u001b[30m  main ✚ >R>\u001b[33;49m\r\n\u001b[34m\u001b[0m \u001b[32mgit\u001b[0m commit -m \u001b[33m\"feat: msa 개요 정리\"\r\n\u001b[0m[main 388c204] feat: msa 개요 정리\r\n 4 files changed, 33 insertions(+), 8 deletions(-)\r\n\u001b[40m shon 😎 \u001b[30;44m ~/Documents/Obsidian Vault \u001b[34;43m\u001b[30m  main ± >R>\u001b[33;49m\r\n\u001b[34m\u001b[0m \u001b[32mgit\u001b[0m push origin main\r\n오브젝트 나열하는 중: 17, 완료.\r\n오브젝트 개수 세는 중: 100% (17/17), 완료.\r\nDelta compression using up to 8 threads\r\n오브젝트 압축하는 중: 100% (9/9), 완료.\r\n오브젝트 쓰는 중: 100% (9/9), 325.07 KiB | 36.12 MiB/s, 완료.\r\nTotal 9 (delta 5), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (5/5), completed with 5 local objects.\r\nTo https://github.com/shon5544/Study.git\r\n   c1c3a70..388c204  main -> main\r\n\u001b[40m shon 😎 \u001b[30;44m ~/Documents/Obsidian Vault \u001b[34;43m\u001b[30m  main ± >R>\u001b[33;49m\r\n\u001b[34m\u001b[0m \u001b[32mgit\u001b[0m add",
                         "rows": 20
                       }
                     }
@@ -214,7 +214,7 @@
   },
   "active": "d9d64bb1faf93e96",
   "lastOpenFiles": [
-    "MSA/2. MSA.md",
+    "MSA/2. MSA 개요.md",
     "backend/Untitled 1.md",
     "backend/Untitled.md",
     "MSA/1. 모놀리틱.md",
