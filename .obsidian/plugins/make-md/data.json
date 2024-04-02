@@ -62,14 +62,17 @@
     "//코테/코테/연습/코테/연습/이진탐색",
     "//명진님의 네트워크/명진님의 네트워크/os/명진님의 네트워크/os/code",
     "//코테/코테/연습/코테/연습/DP",
-    "//Kotlin",
-    "//Spaces",
     "//파이썬 딥다이브",
     "//파이썬 딥다이브브",
     "//파이썬 딥다이브",
-    "//학교 공부",
     "//코테/코테/연습",
-    "//코테/코테/연습/코테/연습/dfs&bfs"
+    "//코테/코테/연습/코테/연습/dfs&bfs",
+    "//DDD",
+    "//Test",
+    "//Spaces/Spaces/Home",
+    "//backend",
+    "//학교 공부/학교 공부/데이터 통신과 네트워크",
+    "//MSA"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -109,7 +112,10 @@
     "연ㅡㅂ",
     "연습",
     "backend/ELK",
-    "스터디"
+    "스터디",
+    "DDD",
+    "Test",
+    "MSA"
   ],
   "spacesUseAlias": false,
   "fmKeyAlias": "aliases",

@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "클린 아키텍처/4. 유스케이스 구현하기.md",
+                "file": "MSA/2. MSA.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "649e34d2c32e73ba",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-01-18 14.38.10.excalidraw.md"
               }
             }
           }
@@ -104,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "클린 아키텍처/4. 유스케이스 구현하기.md",
+                "file": "MSA/2. MSA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "클린 아키텍처/4. 유스케이스 구현하기.md",
+                "file": "MSA/2. MSA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "클린 아키텍처/4. 유스케이스 구현하기.md"
+                "file": "MSA/2. MSA.md"
               }
             }
           }
@@ -163,56 +153,57 @@
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "terminal:Open terminal": false
     }
   },
   "active": "8e1b510e5f071dba",
   "lastOpenFiles": [
+    "MSA/2. MSA.md",
+    "MSA/MSA.md",
+    "MSA/1. 모놀리틱.md",
+    "Kotlin/Kotlin.md",
+    "MSA",
+    "Untitled.md",
+    "학교 공부/데이터 통신과 네트워크/데이터 통신과 네트워크.md",
+    "Excalidraw/Drawing 2024-02-01 19.27.22.excalidraw.md",
     "Excalidraw/Drawing 2024-01-18 14.38.10.excalidraw.md",
-    "코테/연습/dfs&bfs/11724 - 연결 요소의 개수.md",
-    "클린 아키텍처/4. 유스케이스 구현하기.md",
+    "Excalidraw/Drawing 2024-01-02 23.23.26.excalidraw.md",
+    "Excalidraw/Drawing 2023-12-27 22.27.24.excalidraw.md",
+    "Excalidraw/Drawing 2023-12-20 19.04.24.excalidraw.md",
+    "Excalidraw/Drawing 2023-12-05 21.14.59.excalidraw.md",
+    "Excalidraw/Drawing 2023-12-02 19.58.41.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-18 18.03.03.excalidraw.md",
+    "Excalidraw/22Drawing 2023-12-02 19.54.38.excalidraw.md",
+    "Images/Pasted Image 20240326001725_570.png",
+    "Images/Images.md",
+    "정쌤 과제.md",
+    "backend/Elasticsearch.md",
+    "backend/Reactive Programming.md",
+    "학교 공부/학교 공부.md",
+    "Spring/Spring.md",
+    "클린 아키텍처/클린 아키텍처.md",
+    "코테/코테.md",
+    "Test/Test 기본 개념.md",
+    "Test/Test.md",
+    "Test/.md",
+    "Test",
+    "명진님의 네트워크/test.js",
+    "명진님의 네트워크/test.py",
+    "Images/Pasted Image 20240229202818_455.png",
+    ".md",
+    "Images/Pasted Image 20240216201754_880.png",
+    "Images/Pasted image 20240129190943.png",
+    "Images/Pasted image 20240129190909.png",
+    "Images/Pasted image 20240129190631.png",
+    "DDD",
     "코테/연습/그래프/1647.py",
     "코테/연습/그래프",
     "코테/연습/dfs&bfs/tempCodeRunnerFile.py",
     "코테/연습/dfs&bfs/1987.py",
     "Images/Pasted image 20240116181822.png",
-    "코테/연습/연습.md",
-    "명진님의 네트워크/os/동기와 비동기 (Blocking, None-Blocking).md",
-    "명진님의 네트워크/network/MAC 계층.md",
-    "학교 공부/학교 공부.md",
-    "코테/코테.md",
     "Images/Pasted image 20240104145632.png",
-    "파이썬 딥다이브/1장 - 파이썬 데이터 모델.md",
-    "파이썬 딥다이브/스터디.md",
-    "코테/연습/DP/1520 - 내리막길.md",
-    "파이썬 딥다이브",
-    "Untitled.md",
-    "Excalidraw/Drawing 2024-01-02 23.23.26.excalidraw.md",
-    "코테/연습/18353 - 병사 배치하기.md",
-    "코테/연습/DP/2293.py",
-    "코테/연습/DP/9252.py",
-    "코테/연습/정렬/18310.py",
-    "코테/연습/정렬",
-    "코테/정렬/18310.py",
-    "코테/연습/이진탐색/2437 - 저울.md",
-    "코테/2156 - 포도주 시식.md",
-    "코테/1932 - 정수 삼각형.md",
-    "backend/Untitled 1.md",
-    "backend/ELK/ELK.md",
-    "backend/ELK/3. Elasticsearch의 확장성.md",
-    "backend/ELK/2. Elasticsearch의 논리적 컨셉.md",
     "Images/Pasted image 20231220190654.png",
-    "Images/Pasted image 20231220185242.png",
-    "Images/Pasted Image 20231229223638_491.png",
-    "Excalidraw/Drawing 2023-12-27 22.27.24.excalidraw.md",
-    "Excalidraw/Drawing 2023-12-20 19.04.24.excalidraw.md",
-    "학교 공부/윈도우 프로그래밍 및 실습/윈프 시험 대비.md",
-    "학교 공부/윈도우 프로그래밍 및 실습/윈도우 프로그래밍 및 실습.md",
-    "학교 공부/데이터 통신과 네트워크/데통네 시험 정리.md",
-    "Images/Snipaste_2023-11-27_18-55-44@2x.png",
-    "Images/Pasted image 20231211170414.png",
-    "Images/Pasted image 20231210183308.png",
-    "Images/Pasted image 20231210183111.png",
-    "Images/Pasted image 20231210183013.png"
+    "Images/Pasted image 20231220185242.png"
   ]
 }
