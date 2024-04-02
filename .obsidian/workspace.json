@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "36adf6825816a987",
+        "id": "409bced7308b4ed1",
         "type": "split",
         "children": [
           {
@@ -26,11 +26,11 @@
             ]
           },
           {
-            "id": "41adf70613a6e81d",
+            "id": "4db3a1312295274f",
             "type": "tabs",
             "children": [
               {
-                "id": "386ac711eb0c5da7",
+                "id": "d9d64bb1faf93e96",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -59,7 +59,7 @@
                       },
                       "serial": {
                         "columns": 146,
-                        "data": "\u001b[40m shon 😎 \u001b[30;44m ~/Documents/Obsidian Vault \u001b[34;43m\u001b[30m  main ± >R>\u001b[33;49m\r\n\u001b[34m\u001b[0m \u001b[32mgit\u001b[0m add \u001b[4m.\u001b[0m",
+                        "data": "\u001b[40m shon 😎 \u001b[30;44m ~/Documents/Obsidian Vault \u001b[34;43m\u001b[30m  main ± >R>\u001b[33;49m\r\n\u001b[34m\u001b[0m \u001b[32mgit\u001b[0m ",
                         "rows": 20
                       }
                     }
@@ -212,7 +212,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "386ac711eb0c5da7",
+  "active": "d9d64bb1faf93e96",
   "lastOpenFiles": [
     "MSA/2. MSA.md",
     "backend/Untitled 1.md",
