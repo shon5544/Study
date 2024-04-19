@@ -35,7 +35,6 @@ fun main(args: Array<String>) {
     if (isNotNull(nullableInt)) {
         val nonNullInt: Int = nullableInt //에러가 발생하지 않습니다.    
     }
-
 }
 ```
 
@@ -49,7 +48,7 @@ contract { } 의 리턴 값이 **true면 "컴파일러야. 이 조건은 참이
 
 그래서 위 코드는 value의 값이 null이든, null이 아니든 무조건 false를 리턴해주게 됨.
 
-### 아니,, 그럼 뭔 소용이야?
+### 아니.. 그럼 뭔 소용이야?
 ---
 ```kotlin
 @ExperimentalContracts
