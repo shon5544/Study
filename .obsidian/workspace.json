@@ -4,57 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9cfdc804ac081840",
+        "id": "cc5d310f67863b8a",
         "type": "tabs",
         "children": [
           {
-            "id": "1d9b217ce18f7522",
+            "id": "989516f4a5ae8bc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MSA/3. MSA 핵심 원칙.md",
+                "file": "Test/Repository 테스트.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "31365b198f3a7392",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Spring/트랜잭션 전파 이해하기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1a759d5b9c401f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kotlin/Contract 문법.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "658d2d38741b37f3",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-04-18 18.32.23.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/트랜잭션 전파 이해하기.md",
+                "file": "Test/Repository 테스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/트랜잭션 전파 이해하기.md",
+                "file": "Test/Repository 테스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/트랜잭션 전파 이해하기.md"
+                "file": "Test/Repository 테스트.md"
               }
             }
           }
@@ -200,38 +165,40 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "31365b198f3a7392",
+  "active": "989516f4a5ae8bc9",
   "lastOpenFiles": [
+    "트러블 슈팅/데이터 정합성 문제로 인한 비결정적인 테스트 코드 혼내주기.md",
+    "Test/Repository 테스트.md",
+    "트러블 슈팅/트러블 슈팅.md",
+    "트러블 슈팅",
+    "Test/Testability란?.md",
+    "MSA/3. MSA 핵심 원칙.md",
+    "MSA/2. MSA 개요.md",
+    "MSA/1. 모놀리틱.md",
+    "urllib3/PoolManager 알아보기.md",
+    "Excalidraw/Drawing 2024-04-18 18.32.23.excalidraw.md",
     "Kotlin/Contract 문법.md",
+    "Images/Pasted image 20240418183339.png",
+    "Images/Pasted image 20240418183916.png",
     "Spring/트랜잭션 전파 이해하기.md",
     "Images/Pasted image 20240419165345.png",
-    "Excalidraw/Drawing 2024-04-18 18.32.23.excalidraw.md",
+    "코테/연습/18353 - 병사 배치하기.md",
+    "클린 아키텍처/3. 코드 구성하기.md",
+    "클린 아키텍처/2. 의존성 역전하기.md",
+    "클린 아키텍처/4. 유스케이스 구현하기.md",
+    "클린 아키텍처/1. 계층형 아키텍처.md",
+    "클린 아키텍처/클린 아키텍처.md",
+    "코테/알고리즘/다이나믹 프로그래밍.md",
+    "코테/연습/이진탐색/2437 - 저울.md",
+    "코테/연습/DP/1520 - 내리막길.md",
+    "Test/Test 기본 개념.md",
     "Images/Pasted image 20240419165054.png",
     "코테/코테.md",
-    "MSA/2. MSA 개요.md",
     "Images/Pasted image 20240418183942.png",
-    "Images/Pasted image 20240418183916.png",
     "Spring/ArgumentResolver.md",
-    "Images/Pasted image 20240418183339.png",
     "Spring/Spring.md",
     "Kotlin/Kotlin.md",
     "Images/Images.md",
-    "Images/이미지 출처.md",
-    "학교 공부/윈도우 프로그래밍 및 실습/윈프 시험 대비.md",
-    "학교 공부/윈도우 프로그래밍 및 실습/윈도우 프로그래밍 및 실습.md",
-    "학교 공부/데이터 통신과 네트워크/데통네 시험 정리.md",
-    "학교 공부/데이터 통신과 네트워크/Network Layer.md",
-    "학교 공부/데이터 통신과 네트워크/데이터 통신과 네트워크.md",
-    "backend/Reactive Programming.md",
-    "backend/Elasticsearch.md",
-    "DDD/1. 도메인 모델 시작하기.md",
-    "DDD/DDD.md",
-    "Test/Test 기본 개념.md",
-    "정쌤 과제.md",
-    "Test/Test.md",
-    "MSA/3. MSA 핵심 원칙.md",
-    "MSA/1. 모놀리틱.md",
-    "MSA/MSA.md",
     "urllib3",
     "Images/Pasted image 20240403022947.png",
     "Images/Pasted image 20240403022247.png",
@@ -245,7 +212,6 @@
     "Images/Pasted Image 20240216201754_880.png",
     "DDD",
     "코테/연습/그래프/1647.py",
-    "코테/연습/그래프",
-    "코테/연습/dfs&bfs/tempCodeRunnerFile.py"
+    "코테/연습/그래프"
   ]
 }
