@@ -9,8 +9,10 @@
 
 ##### 궁금점.
 - 여기서 이야기하는 투명하게란 무엇일까?
+##### 답변
+- 그냥 말 그대로인듯. 뭔가 내부 구현을 가리는 것 없이 그대로 드러냈다 정도의 의미이지 않을까.
 
-##### 좀 자세하게 들어가보면:
+##### 좀 자세하게 보자:
 PoolManager 클래스는 HTTP 요청을 처리하고 연결을 관리하는 데 사용된다. 이 클래스는 요청을 보낼 때마다 필요한 커넥션 풀을 자동으로 관리하기도 한다.
 
 ##### 주요 기능:
@@ -19,9 +21,9 @@ PoolManager 클래스는 HTTP 요청을 처리하고 연결을 관리하는 데 
 3. 커넥션 풀의 수를 제한하고 최근에 사용된 커넥션 풀을 버림.
 4. 요청에 대한 헤더를 처리하고 기본적으로 포함.
 5. 요청을 보내고 응답을 처리.
-6. 리다이렉트를 관리하고 재시도 로직을 구현합니다.
+6. 리다이렉트를 관리하고 재시도 로직을 구현.
 
-요약하면, PoolManager 클래스는 HTTP 요청의 연결 관리와 관련된 모든 작업을 담당하는 중요한 클래스입니다.
+요약하면, PoolManager 클래스는 HTTP 요청의 연결 관리와 관련된 모든 작업을 담당하는 중요한 클래스임.
 
 ## 필드
 - `proxy: Url | None = None`
@@ -68,9 +70,9 @@ def __init__(
 -  `connection_pool_kw`는 추가적인 매개변수로, 새로운 `ConnectionPool` 인스턴스를 생성하는 데 사용.
 -  `num_pools`는 캐시할 커넥션 풀의 수를 나타냄.
 -  `pools`는 `RecentlyUsedContainer[PoolKey, HTTPConnectionPool]` 타입의 객체로, 커넥션 풀을 저장하는 컨테이너임.
--  `pool_classes_by_scheme` 및 `key_fn_by_scheme` 변수에 풀 클래스와 키 함수를 설정합니다. (다른 `PoolManager`에서 이러한 변수를 재정의할 수 있도록 함)
--  부모 클래스의 생성자를 호출하여 초기화합니다.
--  `__enter__()` 및 `__exit__()` 메서드를 오버라이드하여 컨텍스트 관리를 지원합니다.
+-  `pool_classes_by_scheme` 및 `key_fn_by_scheme` 변수에 풀 클래스와 키 함수를 설정한다. (다른 `PoolManager`에서 이러한 변수를 재정의할 수 있도록 함)
+-  부모 클래스의 생성자를 호출하여 초기화한다.
+-  `__enter__()` 및 `__exit__()` 메서드를 오버라이드하여 컨텍스트 관리를 지원한다.
 
 ## `clear`
 ```python
@@ -86,7 +88,7 @@ def clear(self) -> None:
 ```
 
 - `clear()` 메서드는 PoolManager에 저장된 모든 커넥션 풀을 비움.
-- 이 메서드를 호출하면 PoolManager가 관리하는 모든 커넥션 풀이 비워지며, 비워진 풀은 더 이상 사용되지 않습니다.
+- 이 메서드를 호출하면 PoolManager가 관리하는 모든 커넥션 풀이 비워지며, 비워진 풀은 더 이상 사용되지 않음.
 - 더 이상 새로운 요청을 처리하지 않을 때 사용되는 듯(gpt 피셜).
 
 ## `connection_from_host`
@@ -206,7 +208,7 @@ def connection_from_pool_key(
 
 	return pool
 ```
-제공된 풀 키를 기반으로 적절한 연결 풀(`HTTPConnectionPool`)을 가져오는 역할.
+제공된 풀 키를 기반으로 적절한 커넥션 풀(`HTTPConnectionPool`)을 가져오는 역할.
 
 - `self.pools.lock`을 사용하여 커넥션 풀 딕셔너리를 잠금. 이렇게 함으로써 여러 스레드가 동시에 커넥션 풀에 접근하지 못하도록 보호한다.
     
@@ -221,3 +223,278 @@ def connection_from_pool_key(
 - 커넥션 풀을 반환.
 
 ## `connection_from_url`
+```python
+def connection_from_url(
+
+self, url: str, pool_kwargs: dict[str, typing.Any] | None = None
+
+) -> HTTPConnectionPool:
+
+	"""
+
+	Similar to :func:`urllib3.connectionpool.connection_from_url`.
+
+	If ``pool_kwargs`` is not provided and a new pool needs to be constructed, ``self.connection_pool_kw`` is used to initialize the :class:`urllib3.connectionpool.ConnectionPool`. If ``pool_kwargs`` is provided, it is used instead. Note that if a new pool does not need to be created for the request, the provided ``pool_kwargs`` are not used.
+
+	"""
+
+	u = parse_url(url)
+
+	return self.connection_from_host(
+		u.host, port=u.port, scheme=u.scheme, pool_kwargs=pool_kwargs
+	)
+```
+
+주어진 URL에 대한 커넥션 풀(`HTTPConnectionPool`)을 가져오는 역할을 한다.
+
+-  주어진 URL을 파싱하여 호스트(`host`), 포트(`port`), 스킴(`scheme`) 등의 구성 요소를 추출한다.
+    
+- 만약 `pool_kwargs`가 제공되지 않았거나 새로운 풀이 필요한 경우, `self.connection_pool_kw`를 사용하여 새로운 커넥션 풀을 초기화한다. 이는 커넥션 풀을 생성하는 데 필요한 추가적인 매개변수를 설정하는 데 사용된다. 반대로, 이미 존재하는 풀을 사용할 경우에는 제공된 `pool_kwargs`는 사용되지 않음.
+    
+- `connection_from_host` 메서드를 호출하여 호스트, 포트, 스킴 및 필요한 경우 추가 매개변수를 전달하여 커넥션 풀을 가져옴. 이를 통해 URL에 대한 커넥션 풀을 생성하거나 기존에 캐시된 커넥션 풀을 반환함.
+    
+- 가져온 커넥션 풀을 반환
+
+## `_merge_pool_kwargs`
+```python
+def _merge_pool_kwargs(
+	self, override: dict[str, typing.Any] | None
+) -> dict[str, typing.Any]:
+	"""
+	Merge a dictionary of override values for self.connection_pool_kw.
+
+	This does not modify self.connection_pool_kw and returns a new dict.
+	Any keys in the override dictionary with a value of ``None`` are
+	removed from the merged dictionary.
+	"""
+	base_pool_kwargs = self.connection_pool_kw.copy()
+	if override:
+		for key, value in override.items():
+			if value is None:
+				try:
+					del base_pool_kwargs[key]
+				except KeyError:
+					pass
+			else:
+				base_pool_kwargs[key] = value
+	return base_pool_kwargs
+```
+`_merge_pool_kwargs` 메서드는 주어진 `override` 딕셔너리의 값을 `self.connection_pool_kw`의 기본 값과 병합하여 새로운 딕셔너리를 반환한다.
+
+- `base_pool_kwargs`라는 새로운 딕셔너리를 생성하고, `self.connection_pool_kw`의 값을 복사하여 초기화한다. 이렇게 함으로써 `self.connection_pool_kw`를 직접 수정하지 않고 새로운 딕셔너리를 반환할 수 있음.
+    
+- 주어진 `override` 딕셔너리가 있을 경우, 해당 딕셔너리를 반복하면서 각 키-값 쌍을 검사한다.
+    
+- 만약 값이 `None`인 경우, 해당 키에 대한 항목을 `base_pool_kwargs`에서 제거한다. 이렇게 함으로써 `override` 딕셔너리에 명시적으로 `None`으로 설정된 키를 삭제한다.
+    
+- 값이 `None`이 아닌 경우, 해당 키와 값을 `base_pool_kwargs`에 추가한다.
+    
+- 최종적으로 병합된 `base_pool_kwargs`를 반환한다.
+
+
+## `_proxy_requires_url_absolute_form`
+```python
+def _proxy_requires_url_absolute_form(self, parsed_url: Url) -> bool:
+	"""
+	Indicates if the proxy requires the complete destination URL in the
+	request.  Normally this is only needed when not using an HTTP CONNECT
+	tunnel.
+	"""
+	if self.proxy is None:
+		return False
+
+	return not connection_requires_http_tunnel(
+		self.proxy, self.proxy_config, parsed_url.scheme
+	)
+```
+주어진 파싱된 URL에 대해 프록시가 완전한 대상 URL을 요청에 필요로 하는지 여부를 나타내는 boolean 값을 반환
+
+- 만약 PoolManager에 프록시가 설정되어 있지 않은 경우, 즉 `self.proxy`가 None인 경우에는 False를 반환. 이는 프록시가 없으면 완전한 대상 URL이 필요하지 않다는 것을 의미한다.
+    
+- 프록시가 설정되어 있는 경우, `connection_requires_http_tunnel` 함수를 사용하여 해당 프록시가 HTTP CONNECT 터널을 사용하여 통신해야 하는지 여부를 확인한다.
+    
+- 만약 `connection_requires_http_tunnel` 함수가 True를 반환한다면, 프록시가 HTTP CONNECT 터널을 사용하여 통신해야 하므로 완전한 대상 URL이 요청에 필요하지 않으므로 False를 반환한다.
+    
+- 그렇지 않으면, 즉 프록시가 HTTP CONNECT 터널을 사용하지 않아도 되는 경우, 즉 일반적인 HTTP 요청으로 통신할 수 있는 경우에는 완전한 대상 URL이 요청에 필요하므로 True를 반환한다.
+
+## `urlopen`
+```python
+def urlopen( # type: ignore[override]
+
+self, method: str, url: str, redirect: bool = True, **kw: typing.Any
+
+) -> BaseHTTPResponse:
+
+"""
+
+Same as :meth:`urllib3.HTTPConnectionPool.urlopen`
+
+with custom cross-host redirect logic and only sends the request-uri
+
+portion of the ``url``.
+
+  
+
+The given ``url`` parameter must be absolute, such that an appropriate
+
+:class:`urllib3.connectionpool.ConnectionPool` can be chosen for it.
+
+"""
+
+u = parse_url(url)
+
+  
+
+if u.scheme is None:
+
+warnings.warn(
+
+"URLs without a scheme (ie 'https://') are deprecated and will raise an error "
+
+"in a future version of urllib3. To avoid this DeprecationWarning ensure all URLs "
+
+"start with 'https://' or 'http://'. Read more in this issue: "
+
+"https://github.com/urllib3/urllib3/issues/2920",
+
+category=DeprecationWarning,
+
+stacklevel=2,
+
+)
+
+  
+
+conn = self.connection_from_host(u.host, port=u.port, scheme=u.scheme)
+
+  
+
+kw["assert_same_host"] = False
+
+kw["redirect"] = False
+
+  
+
+if "headers" not in kw:
+
+kw["headers"] = self.headers
+
+  
+
+if self._proxy_requires_url_absolute_form(u):
+
+response = conn.urlopen(method, url, **kw)
+
+else:
+
+response = conn.urlopen(method, u.request_uri, **kw)
+
+  
+
+redirect_location = redirect and response.get_redirect_location()
+
+if not redirect_location:
+
+return response
+
+  
+
+# Support relative URLs for redirecting.
+
+redirect_location = urljoin(url, redirect_location)
+
+  
+
+if response.status == 303:
+
+# Change the method according to RFC 9110, Section 15.4.4.
+
+method = "GET"
+
+# And lose the body not to transfer anything sensitive.
+
+kw["body"] = None
+
+kw["headers"] = HTTPHeaderDict(kw["headers"])._prepare_for_method_change()
+
+  
+
+retries = kw.get("retries")
+
+if not isinstance(retries, Retry):
+
+retries = Retry.from_int(retries, redirect=redirect)
+
+  
+
+# Strip headers marked as unsafe to forward to the redirected location.
+
+# Check remove_headers_on_redirect to avoid a potential network call within
+
+# conn.is_same_host() which may use socket.gethostbyname() in the future.
+
+if retries.remove_headers_on_redirect and not conn.is_same_host(
+
+redirect_location
+
+):
+
+new_headers = kw["headers"].copy()
+
+for header in kw["headers"]:
+
+if header.lower() in retries.remove_headers_on_redirect:
+
+new_headers.pop(header, None)
+
+kw["headers"] = new_headers
+
+  
+
+try:
+
+retries = retries.increment(method, url, response=response, _pool=conn)
+
+except MaxRetryError:
+
+if retries.raise_on_redirect:
+
+response.drain_conn()
+
+raise
+
+return response
+
+  
+
+kw["retries"] = retries
+
+kw["redirect"] = redirect
+
+  
+
+log.info("Redirecting %s -> %s", url, redirect_location)
+
+  
+
+response.drain_conn()
+
+return self.urlopen(method, redirect_location, **kw)
+```
+PoolManager의 중요한 메서드 중 하나로, 주어진 URL에 대한 HTTP 요청을 수행하고 응답을 반환한다.
+
+- 먼저, 주어진 URL을 파싱하여 URL의 구성 요소를 가져온다. URL에 scheme이 없는 경우, 앞으로의 버전에서 오류를 발생시키기 위해 경고를 출력한다.
+    
+- URL로부터 추출한 호스트, 포트 및 프로토콜을 사용하여 적절한 연결 풀(`HTTPConnectionPool`)을 선택한다. 이를 통해 해당 호스트 및 포트로의 HTTP 연결을 관리한다.
+    
+- 선택된 커넥션 풀을 사용하여 실제 HTTP 요청을 보낸다. 이때, 기존 요청과 함께 전달된 추가 매개변수(`**kw`)를 함께 사용한다. 또한, 기본적으로 호스트가 같은지 여부를 확인하지 않도록 `assert_same_host` 매개변수를 False로 설정하고, 리다이렉트를 비활성화하기 위해 `redirect` 매개변수를 False로 설정한다.
+    
+- 만약 프록시가 완전한 대상 URL을 요청에 필요로 한다면(`_proxy_requires_url_absolute_form` 메서드가 True를 반환한다면), 요청할 URL 전체를 사용하여 연결을 연다. 그렇지 않으면, 요청의 일부로써 URI 부분만을 사용하여 연결을 연다.
+    
+- 응답이 리다이렉션을 가리키는 경우(리다이렉트 매개변수가 True이고, 응답에 리다이렉션 위치가 포함되어 있는 경우), 리다이렉션을 수행한다. 이때, 상대 URL을 절대 URL로 변환하고, 응답이 303 상태 코드인 경우, 요청 방법을 GET으로 변경하고, 본문을 전송하지 않도록 한다.
+    
+- 리다이렉션을 수행하는 동안, 요청에 대한 재시도 로직을 처리한다. 재시도 옵션 및 행동을 기반으로 한 Retry 객체를 사용하여 재시도 로직을 수행하고, 필요한 경우 새로운 연결을 연다.
+    
+- 최종적으로, 리다이렉션이 완료된 새로운 URL에 대해 재귀적으로 `urlopen` 메서드를 호출하여 다시 요청을 보낸다. 이 과정은 모든 리다이렉션을 따라가며 최종 응답을 받을 때까지 반복된다.
+    
+- 최종 응답이 수신되면, 해당 응답을 반환하기 전에 연결을 비운다(drain).
