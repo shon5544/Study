@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "도메인 주도 개발 시작하기/클린 아키텍처, DDD 왜 열광할까.md",
+                "file": "통찰/클린 아키텍처, DDD 왜 열광할까.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "도메인 주도 개발 시작하기/클린 아키텍처, DDD 왜 열광할까.md",
+                "file": "통찰/클린 아키텍처, DDD 왜 열광할까.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "도메인 주도 개발 시작하기/클린 아키텍처, DDD 왜 열광할까.md",
+                "file": "통찰/클린 아키텍처, DDD 왜 열광할까.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "도메인 주도 개발 시작하기/클린 아키텍처, DDD 왜 열광할까.md"
+                "file": "통찰/클린 아키텍처, DDD 왜 열광할까.md"
               }
             }
           }
@@ -167,9 +167,10 @@
   },
   "active": "9f50cd146f4abd77",
   "lastOpenFiles": [
+    "통찰/클린 아키텍처가 지나친 오버 엔지니어링이라 생각했던 과거의 나에게.md",
+    "통찰/클린 아키텍처, DDD 왜 열광할까.md",
     "urllib3/PoolManager 알아보기.md",
     "urllib3/RequestMethods.md",
-    "도메인 주도 개발 시작하기/클린 아키텍처, DDD 왜 열광할까.md",
     "CS/1. 디자인 패턴.md",
     "객체지향의 사실과 오해/1장 - 협력하는 객체들의 공동체.md",
     "CS/CS.md",
@@ -181,7 +182,6 @@
     "Images/Pasted image 20240429173054.png",
     "도메인 주도 개발 시작하기/1. 도메인 모델 시작하기.md",
     "도메인 주도 개발 시작하기/도메인 주도 개발 시작하기.md",
-    "통찰/클린 아키텍처가 지나친 오버 엔지니어링이라 생각했던 과거의 나에게.md",
     "객체지향의 사실과 오해",
     "Excalidraw/Drawing 2024-04-28 22.59.46.excalidraw.md",
     "트러블 슈팅/데이터 정합성 문제로 인한 비결정적인 테스트 코드 혼내주기.md",
