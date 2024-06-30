@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ca068c093ff8fe4c",
+        "id": "16a0321d546fef77",
         "type": "tabs",
         "children": [
           {
-            "id": "9f50cd146f4abd77",
+            "id": "d88497a3b4a7a77c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/트랜잭션 전파 이해하기.md",
+                "file": "대규모 시스템 설계 기초/캐시.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/트랜잭션 전파 이해하기.md",
+                "file": "대규모 시스템 설계 기초/캐시.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/트랜잭션 전파 이해하기.md",
+                "file": "대규모 시스템 설계 기초/캐시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/트랜잭션 전파 이해하기.md"
+                "file": "대규모 시스템 설계 기초/캐시.md"
               }
             }
           }
@@ -165,53 +165,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9f50cd146f4abd77",
+  "active": "d88497a3b4a7a77c",
   "lastOpenFiles": [
-    "트러블 슈팅/데이터 정합성 문제로 인한 비결정적인 테스트 코드 혼내주기.md",
     "통찰/클린 아키텍처, DDD 왜 열광할까.md",
-    "통찰/클린 아키텍처가 지나친 오버 엔지니어링이라 생각했던 과거의 나에게.md",
-    "urllib3/PoolManager 알아보기.md",
-    "urllib3/RequestMethods.md",
-    "CS/1. 디자인 패턴.md",
-    "객체지향의 사실과 오해/1장 - 협력하는 객체들의 공동체.md",
-    "CS/CS.md",
-    "객체지향의 사실과 오해/객체지향의 사실과 오해.md",
-    "Vault.md",
-    "CS",
-    "Images/Pasted image 20240429182742.png",
-    "MSA/3. MSA 핵심 원칙.md",
-    "Images/Pasted image 20240429173054.png",
-    "도메인 주도 개발 시작하기/1. 도메인 모델 시작하기.md",
-    "도메인 주도 개발 시작하기/도메인 주도 개발 시작하기.md",
-    "객체지향의 사실과 오해",
-    "Excalidraw/Drawing 2024-04-28 22.59.46.excalidraw.md",
-    "통찰/Untitled.md",
-    "통찰/통찰.md",
-    "코테/코테.md",
-    "통찰",
+    "대규모 시스템 설계 기초/캐시.md",
+    "대규모 시스템 설계 기초/시.md",
+    "대규모 시스템 설계 기초/대규모 시스템 설계 기초.md",
+    "DB/실무에서 FK를 안 쓰는 이유?.md",
+    "대규모 시스템 설계 기초/사용자 수에 따른 규모 확장성성.md",
+    "DB/안녕하세요..md",
+    "DB/DB.md",
+    "DB/실무에서 FK 안 쓰는 이유.md",
+    "DB",
     "Untitled.md",
-    "Spring/트랜잭션 전파 이해하기.md",
-    "클린 아키텍처/1. 계층형 아키텍처.md",
-    "클린 아키텍처/2. 의존성 역전하기.md",
-    "트러블 슈팅/트러블 슈팅.md",
-    "클린 아키텍처/4. 유스케이스 구현하기.md",
-    "Test/Repository 테스트.md",
-    "Excalidraw/Drawing 2024-04-24 16.29.04.excalidraw.md",
+    "대규모 시스템 설계 기초/사용자 수에 따른 규모 확장성.md",
+    "CS/Http/SSL.md",
+    "대규모 시스템 설계 기초/.md",
+    "Excalidraw/Drawing 2024-06-28 21.46.17.excalidraw.md",
+    "대규모 시스템 설계 기초",
+    "Excalidraw/세바개.excalidraw.md",
+    "Excalidraw/Drawing 2024-06-14 22.49.19.excalidraw.md",
+    "무제 파일.md",
+    "MSA/2. MSA 개요.md",
+    "MSA/1. 모놀리틱.md",
+    "MSA/3. MSA 핵심 원칙.md",
+    "CS/Http/Untitled 1.md",
+    "CS/Code/디자인 패턴.md",
+    "CS/Http/Http.md",
+    "Images/Pasted image 20240618181335.png",
+    "Images/Pasted image 20240618181316.png",
+    "Images/Pasted image 20240618181247.png",
+    "Images/Pasted image 20240618181156.png",
+    "Images/Pasted image 20240618181057.png",
+    "Images/Snipaste_2024-06-18_17-47-43.png",
+    "Images/Pasted image 20240618174544.png",
+    "Images/Pasted image 20240618174309.png",
+    "Images/Pasted image 20240618173525.png",
+    "Images/Pasted image 20240618162217.png",
+    "CS/Code/Code.md",
+    "CS/Http",
+    "CS/Untitled.md",
+    "CS/Code",
+    "CS/CS.md",
+    "CS",
+    "객체지향의 사실과 오해",
+    "통찰",
     "트러블 슈팅",
-    "Test/Testability란?.md",
-    "Images/Pasted image 20240418183339.png",
-    "Images/Pasted image 20240418183916.png",
-    "Images/Pasted image 20240419165345.png",
-    "Images/Pasted image 20240419165054.png",
-    "Images/Pasted image 20240418183942.png",
     "urllib3",
-    "Images/Pasted image 20240403022947.png",
-    "Images/Pasted image 20240403022247.png",
-    "MSA",
-    "Images/Pasted Image 20240326001725_570.png",
-    "Test",
-    "명진님의 네트워크/test.js",
-    "명진님의 네트워크/test.py",
-    ".md"
+    "MSA"
   ]
 }
