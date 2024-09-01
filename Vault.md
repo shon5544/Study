@@ -6,4 +6,6 @@ _sort:
   field: name
   asc: true
   group: false
+_template: ""
+_templateName: ""
 ---

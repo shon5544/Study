@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "16a0321d546fef77",
+        "id": "8f8e13e094381723",
         "type": "tabs",
         "children": [
           {
-            "id": "d88497a3b4a7a77c",
+            "id": "61c237642df954ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "대규모 시스템 설계 기초/캐시.md",
+                "file": "Kotlin/Coroutine/7장 구조화된 동시성.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b430e159713972c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "대규모 시스템 설계 기초/DB 다중화.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +87,7 @@
             }
           },
           {
-            "id": "8327f268d49c4a0b",
+            "id": "7dc53c7b27c1d2aa",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "대규모 시스템 설계 기초/캐시.md",
+                "file": "대규모 시스템 설계 기초/DB 다중화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "대규모 시스템 설계 기초/캐시.md",
+                "file": "대규모 시스템 설계 기초/DB 다중화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "대규모 시스템 설계 기초/캐시.md"
+                "file": "대규모 시스템 설계 기초/DB 다중화.md"
               }
             }
           }
@@ -165,53 +178,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d88497a3b4a7a77c",
+  "active": "b430e159713972c6",
   "lastOpenFiles": [
-    "코테/연습/DP/9095.py",
-    "통찰/클린 아키텍처, DDD 왜 열광할까.md",
+    "대규모 시스템 설계 기초/수직적 확장 vs 수평적 확장.md",
+    "Python/Python Type hint.md",
+    "대규모 시스템 설계 기초/DB 다중화.md",
     "대규모 시스템 설계 기초/캐시.md",
-    "대규모 시스템 설계 기초/시.md",
-    "대규모 시스템 설계 기초/대규모 시스템 설계 기초.md",
-    "DB/실무에서 FK를 안 쓰는 이유?.md",
-    "대규모 시스템 설계 기초/사용자 수에 따른 규모 확장성성.md",
-    "DB/안녕하세요..md",
-    "DB/DB.md",
-    "DB/실무에서 FK 안 쓰는 이유.md",
-    "DB",
-    "Untitled.md",
     "대규모 시스템 설계 기초/사용자 수에 따른 규모 확장성.md",
-    "CS/Http/SSL.md",
-    "대규모 시스템 설계 기초/.md",
-    "Excalidraw/Drawing 2024-06-28 21.46.17.excalidraw.md",
-    "대규모 시스템 설계 기초",
-    "Excalidraw/세바개.excalidraw.md",
-    "Excalidraw/Drawing 2024-06-14 22.49.19.excalidraw.md",
+    "Kotlin/Coroutine/8장 예외 처리.md",
+    "Images/Pasted image 20240823204151.png",
+    "Kotlin/Kotlin.md",
+    "Images/Pasted image 20240814232942.png",
+    "Images/Pasted image 20240814232759.png",
+    "Python/Python.md",
+    "Python",
+    "Vault.md",
     "무제 파일.md",
-    "MSA/2. MSA 개요.md",
-    "MSA/1. 모놀리틱.md",
-    "MSA/3. MSA 핵심 원칙.md",
-    "CS/Http/Untitled 1.md",
-    "CS/Code/디자인 패턴.md",
-    "CS/Http/Http.md",
-    "Images/Pasted image 20240618181335.png",
-    "Images/Pasted image 20240618181316.png",
-    "Images/Pasted image 20240618181247.png",
-    "Images/Pasted image 20240618181156.png",
-    "Images/Pasted image 20240618181057.png",
-    "Images/Snipaste_2024-06-18_17-47-43.png",
-    "Images/Pasted image 20240618174544.png",
-    "Images/Pasted image 20240618174309.png",
-    "Images/Pasted image 20240618173525.png",
-    "Images/Pasted image 20240618162217.png",
-    "CS/Code/Code.md",
+    "학교 공부/학교 공부.md",
+    "Excalidraw/Drawing 2024-08-14 14.58.41.excalidraw.md",
+    "Kotlin/Coroutine/7장 구조화된 동시성.md",
+    "Excalidraw/Drawing 2024-08-10 18.43.14.excalidraw.md",
+    "Images/Pasted image 20240809200447.png",
+    "Images/Pasted image 20240809162959.png",
+    "Kotlin/Coroutine/6장 CoroutineContext .md",
+    "Kotlin/Coroutine/Coroutine.md",
+    "Kotlin/Coroutine/성.md",
+    "Kotlin/Coroutine/7장 구조화된 동시성 1.md",
+    "Kotlin/Coroutine/5장 async와 Deferred.md",
+    "Kotlin/Coroutine/4장 코루틴 빌더와 Job.md",
+    "Kotlin/Coroutine/3장 CoroutineDispatcher.md",
+    "Kotlin/Coroutine/7장 구조화된 동시성성.md",
+    "MSA/MSA.md",
+    "Excalidraw/Drawing 2024-08-04 19.14.30.excalidraw.md",
+    "Images/Pasted image 20240726201735.png",
+    "Images/Pasted image 20240726200940.png",
+    "Images/Pasted image 20240726200409.png",
+    "Images/Pasted image 20240724173109.png",
+    "Images/Pasted image 20240724172903.png",
+    "Spring/`@Transactional(readOnly=true)`의 성능 최적화.md",
+    "Spring/Spring.md",
+    "Kotlin/Coroutine",
+    "코테/연습/DP/9095.py",
+    "DB",
+    "대규모 시스템 설계 기초",
     "CS/Http",
-    "CS/Untitled.md",
     "CS/Code",
     "CS",
     "객체지향의 사실과 오해",
-    "통찰",
-    "트러블 슈팅",
-    "urllib3",
-    "MSA"
+    "통찰"
   ]
 }
