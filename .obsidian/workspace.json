@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "대규모 시스템 설계 기초/DB 다중화.md",
+                "file": "대규모 시스템 설계 기초/캐시.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "대규모 시스템 설계 기초/DB 다중화.md",
+                "file": "대규모 시스템 설계 기초/캐시.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "대규모 시스템 설계 기초/DB 다중화.md",
+                "file": "대규모 시스템 설계 기초/캐시.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "대규모 시스템 설계 기초/DB 다중화.md"
+                "file": "대규모 시스템 설계 기초/캐시.md"
               }
             }
           }
@@ -180,11 +180,16 @@
   },
   "active": "b430e159713972c6",
   "lastOpenFiles": [
-    "대규모 시스템 설계 기초/수직적 확장 vs 수평적 확장.md",
-    "Python/Python Type hint.md",
     "대규모 시스템 설계 기초/DB 다중화.md",
-    "대규모 시스템 설계 기초/캐시.md",
+    "대규모 시스템 설계 기초/수직적 확장 vs 수평적 확장.md",
     "대규모 시스템 설계 기초/사용자 수에 따른 규모 확장성.md",
+    "대규모 시스템 설계 기초/메시지 큐.md",
+    "대규모 시스템 설계 기초/대규모 시스템 설계 기초.md",
+    "대규모 시스템 설계 기초/메시지 큐 1.md",
+    "대규모 시스템 설계 기초/큐.md",
+    "대규모 시스템 설계 기초/메시지 큐큐.md",
+    "Python/Python Type hint.md",
+    "대규모 시스템 설계 기초/캐시.md",
     "Kotlin/Coroutine/8장 예외 처리.md",
     "Images/Pasted image 20240823204151.png",
     "Kotlin/Kotlin.md",
@@ -207,16 +212,11 @@
     "Kotlin/Coroutine/5장 async와 Deferred.md",
     "Kotlin/Coroutine/4장 코루틴 빌더와 Job.md",
     "Kotlin/Coroutine/3장 CoroutineDispatcher.md",
-    "Kotlin/Coroutine/7장 구조화된 동시성성.md",
-    "MSA/MSA.md",
-    "Excalidraw/Drawing 2024-08-04 19.14.30.excalidraw.md",
     "Images/Pasted image 20240726201735.png",
     "Images/Pasted image 20240726200940.png",
     "Images/Pasted image 20240726200409.png",
     "Images/Pasted image 20240724173109.png",
     "Images/Pasted image 20240724172903.png",
-    "Spring/`@Transactional(readOnly=true)`의 성능 최적화.md",
-    "Spring/Spring.md",
     "Kotlin/Coroutine",
     "코테/연습/DP/9095.py",
     "DB",
