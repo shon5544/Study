@@ -3,5 +3,6 @@
   "obsidian-git",
   "obsidian-plugin-toc",
   "obsidian-excalidraw-plugin",
-  "terminal"
+  "terminal",
+  "obsidian-format-code"
 ]

@@ -17,6 +17,7 @@
   "editorFlow": true,
   "internalLinkClickFlow": true,
   "internalLinkSticker": true,
+  "spacesRightSplit": false,
   "contextEnabled": true,
   "spaceViewEnabled": true,
   "saveAllContextToFrontmatter": true,
@@ -89,15 +90,14 @@
     "//코테/코테/연습/코테/연습/브루트포스",
     "//코테/코테/연습/코테/연습/최단 거리",
     "//코테/코테/연습/코테/연습/정렬",
-    "/",
     "//DDD",
     "//CS/CS/Code",
     "//CS/CS/Http",
     "//CS/CS/Http",
     "//Kotlin/Kotlin/Coroutine",
     "//Python",
-    "//Kotlin",
-    "//대규모 시스템 설계 기초"
+    "/",
+    "//JavaScript"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -143,6 +143,7 @@
   "searchWorker": true,
   "skipFolderNames": [],
   "skipFolders": [],
+  "enhancedLogs": false,
   "folderContextFile": "context",
   "folderFrameFile": "frames",
   "waypoints": [
