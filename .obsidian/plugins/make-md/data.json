@@ -97,7 +97,12 @@
     "//Kotlin/Kotlin/Coroutine",
     "//Python",
     "/",
-    "//JavaScript"
+    "//JavaScript",
+    "//CS",
+    "//DB",
+    "//Kotlin",
+    "//MSA",
+    "//NestJS"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
